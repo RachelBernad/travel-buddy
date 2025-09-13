@@ -1,0 +1,13 @@
+transformers>=4.43.0
+accelerate>=0.33.0
+# For CPU-only Windows users, torch via pip may be large; consider manual install if needed
+torch>=2.3.0
+safetensors>=0.4.3
+pydantic>=2.7.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.1
+langchain>=0.2.10
+langchain-community>=0.2.10
+langchain-huggingface>=0.0.3
+langgraph>=0.0.72
+huggingface_hub>=0.24.0
