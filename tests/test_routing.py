@@ -209,7 +209,7 @@ class TestOllamaTaskClassifier:
         """Test successful task classification."""
         mock_generate.return_value = {"response": "category: attractions\nconfidence: 0.9"}
         
-        handler_type, confidence = self.classifier.classify_task("What to do in Paris?", {})
+        handler_type, confidence = self.classifier.classify("What to do in Paris?", {})
         
         assert handler_type == HandlerType.ATTRACTIONS
         assert confidence == 0.9
@@ -220,7 +220,7 @@ class TestOllamaTaskClassifier:
         """Test classification failure fallback."""
         mock_generate.side_effect = Exception("Ollama error")
         
-        handler_type, confidence = self.classifier.classify_task("Test query", {})
+        handler_type, confidence = self.classifier.classify("Test query", {})
         
         assert handler_type == HandlerType.OTHER
         assert confidence == 0.5
@@ -244,7 +244,7 @@ class TestTaskRouterWithOllama:
         mock_settings.llm_backend = "ollama"
         
         router = TaskRouter(self.handlers)
-        assert router.ollama_classifier is not None
+        assert router.task_classifier is not None
     
     @patch('travel_buddy.handlers.task_router.settings')
     def test_router_with_huggingface_backend(self, mock_settings):
@@ -252,7 +252,7 @@ class TestTaskRouterWithOllama:
         mock_settings.llm_backend = "huggingface"
         
         router = TaskRouter(self.handlers)
-        assert router.ollama_classifier is None
+        assert router.task_classifier is None
     
     @patch('travel_buddy.handlers.task_router.settings')
     @patch('travel_buddy.handlers.ollama_classifier.OllamaTaskClassifier.classify_task')

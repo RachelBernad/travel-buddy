@@ -106,7 +106,7 @@ def test_ollama_classifier_success(mock_generate):
     mock_generate.return_value = {"response": "category: attractions\nconfidence: 0.9\nhas_weather_mentioned: false\nlocation: paris, france\nis_question: true\nis_comparison: false\nis_recommendation_request: true"}
     
     classifier = TravelTaskClassifier()
-    handler_type, confidence, tags = classifier.classify_task("What to do in Paris?", {})
+    handler_type, confidence, tags = classifier.classify("What to do in Paris?", {})
     
     assert handler_type == HandlerType.ATTRACTIONS
     assert confidence == 0.9
@@ -120,7 +120,7 @@ def test_ollama_classifier_failure(mock_generate):
     mock_generate.side_effect = Exception("Ollama error")
     
     classifier = TravelTaskClassifier()
-    handler_type, confidence, tags = classifier.classify_task("Test query", {})
+    handler_type, confidence, tags = classifier.classify("Test query", {})
     
     assert handler_type == HandlerType.OTHER
     assert confidence == 0.5
@@ -139,7 +139,7 @@ def test_task_router_basic_functionality():
     router = TaskRouter(handlers)
     
     # Should have classifier
-    assert router.ollama_classifier is not None
+    assert router.task_classifier is not None
 
 
 def test_task_router_with_ollama():
@@ -154,7 +154,7 @@ def test_task_router_with_ollama():
     router = TaskRouter(handlers)
     
     # Should have Ollama classifier
-    assert router.ollama_classifier is not None
+    assert router.task_classifier is not None
 
 
 @patch('travel_buddy.handlers.task_classifier.TravelTaskClassifier.classify_task')

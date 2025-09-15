@@ -54,7 +54,7 @@ class TravelTaskClassifier:
         self.model = settings.ollama_model
         self.handler_types = [handler_type.value for handler_type in HandlerType]
     
-    def classify_task(self, user_input: str, context: Dict[str, Any]) -> Tuple[HandlerType, float, Dict[str, Any]]:
+    def classify(self, user_input: str, context: Dict[str, Any]) -> Tuple[HandlerType, float, Dict[str, Any]]:
         try:
             prompt = _build_classification_prompt(user_input, context)
             
