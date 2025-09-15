@@ -1,0 +1,256 @@
+{
+  "memories": [],
+  "conversations": {
+    "test": [
+      {
+        "turn_id": "2515872a-28f9-4886-98a5-b6ebb79382aa",
+        "timestamp": "2025-09-13 20:48:48.118343",
+        "user_input": "What are the best attractions in Paris?",
+        "assistant_response": "User: Recent conversation:\nCurrent question: What are the best attractions in Paris?\n\nYou are a specialized travel attractions and activities expert. Your role is to help users with:\n\n1. Attraction recommendations and information\n2. Activity suggestions and planning\n3. Sightseeing itineraries\n4. Entertainment and cultural experiences\n5. Outdoor activities and adventures\n6. Family-friendly attractions\n7. Budget-friendly activities\n\nFocus on providing:\n- Specific attraction details and highlights\n- Practical information (hours, prices, booking requirements)\n- Activity recommendations based on interests\n- Itinerary suggestions and time estimates\n- Accessibility and family-friendliness information\n- Local insider tips and hidden gems\n\nInclude practical details like:\n- Opening hours and best times to visit\n- Ticket prices and booking information\n- Transportation and location details\n- What to expect and how to prepare\n- Nearby restaurants or facilities\n- Photography tips and best viewpoints\n\nBe enthusiastic about attractions while being honest about crowds, costs, and practical considerations.\n\nUser: What are the best attractions in Paris?\nAssistant:\nAssistant:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\n",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 1.0,
+          "success": true,
+          "task_type": "attractions",
+          "user_input_length": 39,
+          "has_context": true,
+          "memory_count": 0,
+          "session_id": "test",
+          "handler_type": "attractions",
+          "input_analysis": {
+            "has_attraction_mention": false,
+            "is_family_question": false,
+            "is_budget_question": false,
+            "is_timing_question": false,
+            "is_recommendation_request": true
+          }
+        }
+      },
+      {
+        "turn_id": "e21b03bc-f0b0-4b0e-845f-84ec59af83a5",
+        "timestamp": "2025-09-13 20:49:19.965178",
+        "user_input": "I need help packing for a beach vacation",
+        "assistant_response": "User: Recent conversation:\nRecent conversation:\nUser: What are the best attractions in Paris?\nAssistant: User: Recent conversation:\nCurrent question: What are the best attractions in Paris?\n\nYou are a specialized travel attractions and activities expert. Your role is to help users with:\n\n1. Attraction recommendations and information\n2. Activity suggestions and planning\n3. Sightseeing itineraries\n4. Entertainment and cultural experiences\n5. Outdoor activities and adventures\n6. Family-friendly attractions\n7. Budget-friendly activities\n\nFocus on providing:\n- Specific attraction details and highlights\n- Practical information (hours, prices, booking requirements)\n- Activity recommendations based on interests\n- Itinerary suggestions and time estimates\n- Accessibility and family-friendliness information\n- Local insider tips and hidden gems\n\nInclude practical details like:\n- Opening hours and best times to visit\n- Ticket prices and booking information\n- Transportation and location details\n- What to expect and how to prepare\n- Nearby restaurants or facilities\n- Photography tips and best viewpoints\n\nBe enthusiastic about attractions while being honest about crowds, costs, and practical considerations.\n\nUser: What are the best attractions in Paris?\nAssistant:\nAssistant:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\n\n\n\nCurrent question: I need help packing for a beach vacation\n\nYou are a specialized travel attractions and activities expert. Your role is to help users with:\n\n1. Attraction recommendations and information\n2. Activity suggestions and planning\n3. Sightseeing itineraries\n4. Entertainment and cultural experiences\n5. Outdoor activities and adventures\n6. Family-friendly attractions\n7. Budget-friendly activities\n\nFocus on providing:\n- Specific attraction details and highlights\n- Practical information (hours, prices, booking requirements)\n- Activity recommendations based on interests\n- Itinerary suggestions and time estimates\n- Accessibility and family-friendliness information\n- Local insider tips and hidden gems\n\nInclude practical details like:\n- Opening hours and best times to visit\n- Ticket prices and booking information\n- Transportation and location details\n- What to expect and how to prepare\n- Nearby restaurants or facilities\n- Photography tips and best viewpoints\n\nBe enthusiastic about attractions while being honest about crowds, costs, and practical considerations.\n\nUser: I need help packing for a beach vacation\nAssistant:\nAssistant:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\n",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 0.8999999999999999,
+          "success": true,
+          "task_type": "attractions",
+          "user_input_length": 40,
+          "has_context": true,
+          "memory_count": 0,
+          "session_id": "test",
+          "handler_type": "attractions",
+          "input_analysis": {
+            "has_attraction_mention": true,
+            "is_family_question": false,
+            "is_budget_question": false,
+            "is_timing_question": false,
+            "is_recommendation_request": false
+          }
+        }
+      },
+      {
+        "turn_id": "429a9f40-c3bd-40ac-a39d-eebc728e8438",
+        "timestamp": "2025-09-13 22:08:36.846783",
+        "user_input": "Hello, how are you today?",
+        "assistant_response": "I encountered an error while processing your destination query: index out of range in self",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.3,
+          "success": false,
+          "error": "index out of range in self"
+        }
+      },
+      {
+        "turn_id": "651ae14c-2fad-48da-830b-86eb9e762e8e",
+        "timestamp": "2025-09-13 22:10:31.689724",
+        "user_input": "Hello, how are you today?",
+        "assistant_response": "I encountered an error while processing your destination query: index out of range in self",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.4,
+          "success": false,
+          "error": "index out of range in self"
+        }
+      },
+      {
+        "turn_id": "5c154fa1-5264-44c9-aa9b-60915df1b595",
+        "timestamp": "2025-09-13 22:11:34.074617",
+        "user_input": "Hello, how are you today?",
+        "assistant_response": "I encountered an error while processing your destination query: index out of range in self",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.4,
+          "success": false,
+          "error": "index out of range in self"
+        }
+      },
+      {
+        "turn_id": "12f883fc-cd48-4e31-af73-682a5e6e7b75",
+        "timestamp": "2025-09-13 22:12:07.752791",
+        "user_input": "Hello, how are you today?",
+        "assistant_response": "User: Relevant info:\n- Travel context: I need help packing for a beach vacation...\n- Travel context: I need help packing for a beach vacation...\n\nYou are a travel destination expert. Help with:\n- Destination recommendations\n- Best times to visit\n- Cultural insights\n- Practical travel info\n\nBe specific and helpful.\n\nUser: Hello, how are you today?\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.4,
+          "success": true,
+          "task_type": "destination",
+          "user_input_length": 25,
+          "has_context": true,
+          "memory_count": 2,
+          "session_id": "test",
+          "handler_type": "destination",
+          "input_analysis": {
+            "has_location_mention": true,
+            "is_comparison": false,
+            "is_timing_question": false,
+            "is_recommendation_request": false
+          }
+        }
+      },
+      {
+        "turn_id": "33d43fe9-02cf-43ab-92c4-5001762d9dfb",
+        "timestamp": "2025-09-14 14:15:15.468950",
+        "user_input": "What are the best attractions in Paris?",
+        "assistant_response": "I encountered an error while processing your attractions query: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/meta-llama/Llama-2-13b-chat-hf.\n401 Client Error. (Request ID: Root=1-68c6a3c4-78fe05f20df3bb4a082a4e79;93b03e78-98e1-4440-a183-1fa706bc0728)\n\nCannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/resolve/main/config.json.\nAccess to model meta-llama/Llama-2-13b-chat-hf is restricted. You must have access to it and be authenticated to access it. Please log in.",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 1.0,
+          "success": false
+        }
+      },
+      {
+        "turn_id": "ebc55ba0-fc33-4154-9389-ebf69c4feb34",
+        "timestamp": "2025-09-14 14:49:40.186287",
+        "user_input": "What are the best attractions in Paris?",
+        "assistant_response": "Ah, a beach vacation! *insert sunny emoji* I'd be happy to help you pack and plan for your trip. 🏖️\n\nFor attraction recommendations in Paris, there are plenty of options to choose from. Here are some of the most popular ones:\n\n1. Eiffel Tower: No trip to Paris is complete without a visit to the iconic Eiffel Tower. You can take the elevator to the top for panoramic views of the city. 🗼️\n2. Notre-Dame Cathedral: This beautiful cathedral is one of the most famous landmarks in Paris. While it's undergoing renovation, you can still admire its Gothic architecture from the outside. 🏛️\n3. Louvre Museum: Home to some of the world's most famous artworks, including the Mona Lisa, the Louvre is a must-visit attraction in Paris. Be sure to book your tickets in advance to avoid long lines. 🎨\n4. Arc de Triomphe: This iconic monument honors the soldiers who fought and died for France. Take the elevator",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 1.0,
+          "success": true
+        }
+      },
+      {
+        "turn_id": "82a6d511-3ae0-48bf-b94f-180300323067",
+        "timestamp": "2025-09-14 15:05:46.442134",
+        "user_input": "What are the best attractions in Tokyo?",
+        "assistant_response": "I encountered an error while processing your attractions query: No module named 'ollama'",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 1.0,
+          "success": false
+        }
+      }
+    ],
+    "default": [
+      {
+        "turn_id": "fa08425b-c88a-40c2-9f81-953f27141d09",
+        "timestamp": "2025-09-13 22:02:40.499416",
+        "user_input": "I need help packing for a beach vacation",
+        "assistant_response": "User: Recent conversation:\nCurrent question: I need help packing for a beach vacation\n\nYou are a specialized travel packing and preparation expert. Your role is to help users with:\n\n1. Packing lists and essentials\n2. Travel preparation and planning\n3. What to bring for different destinations and activities\n4. Weather-appropriate clothing recommendations\n5. Travel documents and requirements\n6. Health and safety preparations\n7. Technology and gadget recommendations\n8. Budget travel packing tips\n\nFocus on providing:\n- Comprehensive but practical packing lists\n- Destination-specific recommendations\n- Weather and season considerations\n- Activity-specific gear suggestions\n- Travel document checklists\n- Health and safety essentials\n- Space-saving and organization tips\n- Budget-friendly alternatives\n\nInclude practical details like:\n- Specific item recommendations with reasons\n- Quantity suggestions (how many of each item)\n- Packing organization tips\n- Weight and size considerations\n- Prohibited items to avoid\n- Emergency essentials\n- Technology and charging needs\n\nBe practical and realistic about what's actually needed vs. what's nice to have.\n\nUser: I need help packing for a beach vacation\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
+        "metadata": {
+          "handler_used": "packing",
+          "routing_confidence": 0.8666666666666667,
+          "success": true,
+          "task_type": "packing",
+          "user_input_length": 40,
+          "has_context": true,
+          "memory_count": 0,
+          "session_id": "default",
+          "handler_type": "packing",
+          "input_analysis": {
+            "has_clothing_mention": false,
+            "has_document_mention": false,
+            "has_weather_mention": false,
+            "is_quantity_question": false,
+            "is_activity_specific": true
+          }
+        }
+      },
+      {
+        "turn_id": "39b4ed0d-1919-4dd5-89d8-319f52ce6f52",
+        "timestamp": "2025-09-13 22:04:17.686192",
+        "user_input": "I want to go to Japan ",
+        "assistant_response": "User: Recent conversation:\nRelevant context from previous conversations:\n- Travel context: I need help packing for a beach vacation\n- Travel context: I need help packing for a beach vacation\n\n\nRecent conversation:\nUser: I need help packing for a beach vacation\nAssistant: User: Recent conversation:\nCurrent question: I need help packing for a beach vacation\n\nYou are a specialized travel packing and preparation expert. Your role is to help users with:\n\n1. Packing lists and essentials\n2. Travel preparation and planning\n3. What to bring for different destinations and activities\n4. Weather-appropriate clothing recommendations\n5. Travel documents and requirements\n6. Health and safety preparations\n7. Technology and gadget recommendations\n8. Budget travel packing tips\n\nFocus on providing:\n- Comprehensive but practical packing lists\n- Destination-specific recommendations\n- Weather and season considerations\n- Activity-specific gear suggestions\n- Travel document checklists\n- Health and safety essentials\n- Space-saving and organization tips\n- Budget-friendly alternatives\n\nInclude practical details like:\n- Specific item recommendations with reasons\n- Quantity suggestions (how many of each item)\n- Packing organization tips\n- Weight and size considerations\n- Prohibited items to avoid\n- Emergency essentials\n- Technology and charging needs\n\nBe practical and realistic about what's actually needed vs. what's nice to have.\n\nUser: I need help packing for a beach vacation\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n\n\n\nCurrent question: I want to go to Japan \n\nRelevant information from previous conversations:\n- Travel context: I need help packing for a beach vacation\n- Travel context: I need help packing for a beach vacation\n\nYou are a specialized travel destination expert. Your role is to help users with:\n\n1. Destination selection and recommendations\n2. Destination information and facts\n3. Best times to visit destinations\n4. Destination comparisons\n5. Regional travel advice\n\nFocus on providing:\n- Specific, actionable destination advice\n- Cultural insights and local knowledge\n- Practical travel information\n- Personalized recommendations based on user preferences\n- Safety and practical considerations\n\nBe enthusiastic but realistic about destinations. Include practical details like:\n- Best seasons to visit\n- Cultural highlights\n- Local customs to be aware of\n- Transportation options\n- Budget considerations\n\nIf the user is asking about multiple destinations, provide clear comparisons.\n\nUser: I want to go to Japan \nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.8333333333333333,
+          "success": true,
+          "task_type": "destination",
+          "user_input_length": 22,
+          "has_context": true,
+          "memory_count": 2,
+          "session_id": "default",
+          "handler_type": "destination",
+          "input_analysis": {
+            "has_location_mention": true,
+            "is_comparison": false,
+            "is_timing_question": false,
+            "is_recommendation_request": false
+          }
+        }
+      },
+      {
+        "turn_id": "9b100525-a2e2-4688-8675-fe23f614bcea",
+        "timestamp": "2025-09-13 22:17:56.993044",
+        "user_input": "how are you today?",
+        "assistant_response": "User: Relevant info:\n- Travel context: I need help packing for a beach vacation...\n- Travel context: I need help packing for a beach vacation...\n\nYou are a travel assistant specialized in destinations, attractions, and packing.\n\nThe user's question doesn't fit your expertise areas. Respond politely and guide them to ask about:\n- Destination recommendations\n- Attractions and activities  \n- Packing and preparation\n\nBe helpful but honest about your limitations.\n\nUser: how are you today?\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.3,
+          "success": true,
+          "task_type": "other",
+          "user_input_length": 18,
+          "has_context": true,
+          "memory_count": 2,
+          "session_id": "default",
+          "handler_type": "other",
+          "input_analysis": {
+            "input_length": 18,
+            "has_travel_keywords": false,
+            "has_destination_keywords": false,
+            "has_attraction_keywords": false,
+            "has_packing_keywords": false,
+            "is_question": true,
+            "is_greeting": false
+          },
+          "fallback_reason": "Query didn't match specialized handlers"
+        }
+      },
+      {
+        "turn_id": "89f4b571-c255-4414-8610-d8f14736b834",
+        "timestamp": "2025-09-14 14:16:03.332438",
+        "user_input": "I love Italian food, what can i do there?",
+        "assistant_response": "I encountered an error while processing your destination query: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/meta-llama/Llama-2-13b-chat-hf.\n401 Client Error. (Request ID: Root=1-68c6a3f4-7f2cb3d96bd5150577a23419;bd17a524-7ed4-496a-bf40-7dd593b1688b)\n\nCannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/resolve/main/config.json.\nAccess to model meta-llama/Llama-2-13b-chat-hf is restricted. You must have access to it and be authenticated to access it. Please log in.",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.4,
+          "success": false
+        }
+      }
+    ],
+    "trial-1": [
+      {
+        "turn_id": "4b8804b1-1af9-441b-9c58-07e09363c75e",
+        "timestamp": "2025-09-13 23:03:35.438524",
+        "user_input": "I love Italian food, what can i do there?",
+        "assistant_response": "You are a helpful travel assistant with access to conversation history and user preferences.\n\n\n\nBased on the above context, please respond to the user's current question.\n\nCurrent question: I love Italian food, what can i do there?\n\nAssistant: I love food, what can i do there?\nYou can also use your email and I hope you enjoy my blog post.\nIf you have any questions, please contact me.\nYou can also reach me in the comments.",
+        "metadata": {}
+      }
+    ],
+    "test-1": [
+      {
+        "turn_id": "35cf0f17-4f1e-4fab-a8d5-6a03c470c693",
+        "timestamp": "2025-09-14 15:38:25.843028",
+        "user_input": "What are the best attractions in Tokyo?",
+        "assistant_response": "Of course! I'd be happy to help you plan your trip to Tokyo. Here are some of the top attractions in the city that are definitely worth checking out:\n\n1. Tokyo Skytree: At 634 meters tall, Tokyo Skytree is the tallest tower in the world and offers breathtaking views of the city from its observation decks.\n2. Shibuya Crossing: This famous intersection is a must-see for anyone visiting Tokyo. Watch as thousands of people cross the street at the same time, and take in the sights and sounds of one of the busiest intersections in the world.\n3. Meiji Shrine: Dedicated to the deified spirits of Emperor Meiji and his wife, Empress Shoken, this shrine is a serene oasis in the midst of bustling Tokyo. Take a stroll through the peaceful gardens and enjoy the tranquil atmosphere.\n4. Tsukiji Fish Market: While the inner market has moved to a new location, the outer market still offers a fascinating glimpse into Tokyo's seafood culture. Try some fresh sushi or seafood at one of",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 1.0,
+          "success": true
+        }
+      }
+    ]
+  }
+}
