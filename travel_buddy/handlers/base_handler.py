@@ -146,7 +146,7 @@ class BaseHandler(ABC):
         return metadata
     
     def get_suggestions(self, task_type: str) -> List[str]:
-        from ..types import HandlerType
+        from ..general_types import HandlerType
         
         suggestions_map = {
             HandlerType.DESTINATION.value: [

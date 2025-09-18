@@ -30,14 +30,16 @@ def generate(prompt: str, custom_model: Optional[str] = None, max_new_tokens: Op
     """
     # Update decorator context with actual values
     backend = settings.llm_backend.lower()
-    model_name = settings.ollama_model
+    model_name = custom_model if custom_model else settings.ollama_model
     actual_max_tokens = max_new_tokens or settings.max_new_tokens
     actual_temperature = temperature if temperature is not None else settings.temperature
+    max_ctx = settings.max_ctx
+    ollama_flash_attention = settings.ollama_flash_attention
     
     logger.info(
         "LLM generation started",
         backend=backend,
-        model= custom_model if custom_model else model_name,
+        model= model_name,
         prompt_length=len(prompt),
         max_tokens=actual_max_tokens,
         temperature=actual_temperature,
@@ -50,8 +52,10 @@ def generate(prompt: str, custom_model: Optional[str] = None, max_new_tokens: Op
 
     return generate_ollama(
         prompt=prompt,
-        model=settings.ollama_model,
+        model=model_name,
         max_tokens=actual_max_tokens,
         temperature=actual_temperature,
-        top_p=top_p if top_p is not None else settings.top_p
+        top_p=top_p if top_p is not None else settings.top_p,
+        max_ctx = max_ctx,
+        ollama_flash_attention = ollama_flash_attention
     )

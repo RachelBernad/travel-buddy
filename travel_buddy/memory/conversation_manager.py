@@ -150,7 +150,7 @@ class ConversationManager:
         # Add recent conversation history
         if context.conversation_turns:
             history_context = "Recent conversation:\n"
-            for turn in context.conversation_turns[-3:]:  # Last 3 turns
+            for turn in context.conversation_turns[-5:]:  # Last 3 turns
                 history_context += f"User: {turn.user_input}\n"
                 history_context += f"Assistant: {turn.assistant_response}\n"
             prompt_parts.append(history_context)

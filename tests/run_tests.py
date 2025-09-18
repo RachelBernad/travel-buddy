@@ -12,3 +12,4 @@ sys.path.insert(0, str(project_root))
 if __name__ == "__main__":
     # Run tests with verbose output
     pytest.main(["-v", "--tb=short", __file__.replace("run_tests.py", "test_routing.py")])
+

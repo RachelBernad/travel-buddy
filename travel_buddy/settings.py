@@ -2,22 +2,33 @@ from typing import Optional
 
 from pydantic import Field
 from pydantic_settings import BaseSettings
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 class Settings(BaseSettings):
+    # LangSmith Configuration
+    langchain_tracing_v2: bool = Field(True, env="LANGCHAIN_TRACING_V2")
+    langchain_project: str = Field("travel-buddy", env="LANGCHAIN_PROJECT")
+    langchain_api_key: str = Field("", env="LANGCHAIN_API_KEY")
+    
     # LLM Backend selection
     llm_backend: str = Field("ollama", env="LLM_BACKEND")
 
     
     # Ollama model
-    ollama_model: str = Field("llama2", env="OLLAMA_MODEL")
-    classification_model: str = Field("mistral", env="CLASSIFICATION_MODEL")
+    ollama_model: str = Field("hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M", env="OLLAMA_MODEL")
+    classification_model: str = Field("llama2", env="CLASSIFICATION_MODEL")
 
     # Generation params
-    max_new_tokens: int = Field(256, env="MAX_NEW_TOKENS")
+    max_new_tokens: int = Field(500, env="MAX_NEW_TOKENS")
     temperature: float = Field(0.5, env="TEMPERATURE")
     top_p: float = Field(0.95, env="TOP_P")
     top_k: int = Field(50, env="TOP_K")
+    max_ctx: int =  Field(32768, env="NUM_CTX")
+    ollama_flash_attention: bool = Field(True, env="OLLAMA_FLASH_ATTENTION")
 
     # Runtime
     seed: Optional[int] = Field(None, env="SEED")

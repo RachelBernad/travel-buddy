@@ -251,6 +251,345 @@
           "success": true
         }
       }
+    ],
+    "test-2": [
+      {
+        "turn_id": "feeda5a8-63a6-46bd-a7b1-e65dd9a6c4d0",
+        "timestamp": "2025-09-15 18:29:04.969308",
+        "user_input": "I want to travel to france, where should i go?",
+        "assistant_response": "Ah, a fellow travel enthusiast! France is an incredible country with so much to offer, it's hard to narrow down the best destinations without knowing your preferences. However, I can give you some popular and culturally significant places to consider for your trip:\n\n1. Paris: The City of Light is a must-visit destination in France. Known for its iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum, as well as its charming streets, cafes, and restaurants.\n2. Provence: Located in the southeast of France, Provence is famous for its picturesque villages, lavender fields, and the French Riviera. Some popular destinations include Avignon, Arles, and the Luberon region.\n3. The French Alps: If you're looking for a mix of culture, history, and outdoor adventure, the French Alps are an excellent choice. Popular resort towns like Chamonix, Annecy, and Grenoble offer breathtaking scenery, world-class skiing, and plenty of hiking trails.\n4. Normandy: This region",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.9,
+          "confidence": 0.9,
+          "classification_tags": {
+            "location": "france (extracted from the user's input)"
+          },
+          "success": true
+        }
+      },
+      {
+        "turn_id": "cd6c1b1b-b990-4685-a1ae-8af6715944e3",
+        "timestamp": "2025-09-15 18:34:53.515986",
+        "user_input": "i want to go to prrovance, what should i do there?",
+        "assistant_response": "Ah, Provence, France! *sigh* Such a beautiful region, full of history, culture, and breathtaking landscapes. As a travel destination expert, I'm happy to help you plan your trip to Provence. 😊\n\nDestination Recommendations:\n\n1. The French Riviera (Côte d'Azur): Known for its stunning beaches, luxury resorts, and picturesque towns like Nice, Cannes, and Saint-Tropez.\n2. Avignon: A historic city with a rich cultural heritage, famous for its medieval architecture, vineyards, and the papal palace of the Popes.\n3. Arles: A charming town known for its Roman ruins, including the Amphitheatre of Arles, and its vibrant art scene.\n4. Aix-en-Provence: A beautiful city with a mild climate, famous for its thermal waters, historic architecture, and cultural events like the Festival d'Aix.\n5. Gordes: A picturesque village perched on a hilltop, known for its Luberon landscape, medieval architecture,",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.9,
+          "confidence": 0.9,
+          "classification_tags": {
+            "has_weather_mentioned": false,
+            "location": "provence, france",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+          },
+          "success": true
+        }
+      },
+      {
+        "turn_id": "a8ac62f3-367c-4bf8-a78a-0b004ecd913e",
+        "timestamp": "2025-09-15 18:40:56.610708",
+        "user_input": "when should i go and what to pack there?",
+        "assistant_response": "Bonjour! I'm glad you're planning a trip to France! However, as a travel assistant, my expertise lies in providing recommendations on destinations, attractions, and packing. I can help you with those areas, but I'm afraid I cannot provide advice on the best time to visit France or what to pack specifically for your trip.\n\nTo get the most out of your trip to France, I would recommend researching different destinations and attractions based on your interests. Some popular destinations in France include Paris, Nice, Cannes, and the French Riviera. Each region has its unique charm and attractions, so it's worth considering what you want to experience during your trip.\n\nIn terms of packing, I would suggest preparing for a variety of weather conditions, as France can be quite diverse in terms of climate. You may want to consider packing layers for cooler months, as well as lightweight and breathable clothing for warmer periods. Don't forget to bring comfortable shoes, as you'll likely be doing a lot of walking during your trip!\n\nIf you have any other questions or need further guidance on destinations, attractions, or pack",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {
+            "location": "france (based on the previous conversation)"
+          },
+          "success": true
+        }
+      },
+      {
+        "turn_id": "2289ec34-5f25-4adb-9a5b-4b5703ad4507",
+        "timestamp": "2025-09-15 18:53:14.767940",
+        "user_input": "when should i go and what to pack there?",
+        "assistant_response": "Bonjour! As a travel destination expert, I'm happy to help you plan your trip to France. When it comes to the best time to visit, it really depends on what you're interested in doing and seeing. Here are some general guidelines to consider:\n\n* Spring (April-May) is a great time to visit France if you want to avoid the crowds and enjoy mild weather. The countryside is blooming, and the beaches are starting to warm up.\n* Summer (June-September) is peak tourist season in France, with warm weather and long days. This is the best time to visit popular destinations like Paris, Provence, and the French Riviera. However, it can also be quite crowded and expensive during this time.\n* Autumn (October-November) is another great time to visit France, as the weather is still pleasant and the crowds have thinned out a bit. This is a good time to explore the countryside, including the Loire Valley and the wine regions of Bordeaux and Champagne.\n* Winter (December-March) can be a great time to visit France if you",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.9,
+          "confidence": 0.9,
+          "classification_tags": {
+            "has_weather_mentioned": false,
+            "location": "france",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+          },
+          "success": true
+        }
+      },
+      {
+        "turn_id": "37e86791-f6ed-4d17-8b42-4e3851d7d747",
+        "timestamp": "2025-09-15 18:59:12.160835",
+        "user_input": "what to pack to preovence?",
+        "assistant_response": "Ah, Provence! One of the most beautiful regions in France, known for its picturesque landscapes, charming villages, and warm climate. As a travel packing expert, I'm happy to help you prepare for your trip to Provence. Here are some essential items to pack:\n\n1. Lightweight clothing: Provence is known for its warm and sunny weather, so pack lightweight, breathable clothing such as cotton dresses, blouses, and shorts.\n2. Comfortable shoes: You'll want to explore the charming villages and vineyards of Provence on foot, so pack comfortable walking shoes or sandals.\n3. Sun protection: Don't forget to pack sunscreen with a high SPF, a wide-brimmed hat, and sunglasses to protect yourself from the sun's strong rays.\n4. Insect repellent: Mosquitoes and other insects can be prevalent in Provence during the summer months, so pack some insect repellent to keep them at bay.\n5. Water bottle: Stay hydrated by bringing a refillable water bottle with you",
+        "metadata": {
+          "handler_used": "packing",
+          "routing_confidence": 0.8,
+          "confidence": 0.9,
+          "classification_tags": {
+            "has_weather_mentioned": true,
+            "location": "provence, france",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+          },
+          "success": true
+        }
+      },
+      {
+        "turn_id": "235a935c-2ce4-48fc-9571-0b9f26857f2b",
+        "timestamp": "2025-09-15 19:12:31.116200",
+        "user_input": "i want to do beach vaction in provance",
+        "assistant_response": "Ah, a beach vacation in Provence, France! That sounds like a dream come true. Provence is known for its stunning beaches, picturesque villages, and rich cultural heritage. Here are some recommendations, insights, and practical travel information to help you plan an unforgettable trip:\n\nDestination Recommendations:\n\n1. The French Riviera (Côte d'Azur): Known for its glamorous towns like Nice, Cannes, and Saint-Tropez, the French Riviera offers some of the most beautiful beaches in Europe. Enjoy the crystal-clear waters, soak up the sun, and explore the local markets and boutiques.\n2. The Calanques: These narrow inlets along the coast offer a more secluded beach experience. The Calanques National Park is home to some of the most beautiful beaches in France, with towering cliffs, hidden coves, and clear waters perfect for swimming and snorkeling.\n3. Hyères: Located on the island of Hyeres, this charming town offers a mix of sandy beaches and pebble shores. Enjoy water",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.9,
+          "confidence": 0.9,
+          "classification_tags": {
+            "has_weather_mentioned": false,
+            "location": "provence, france",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+          },
+          "success": true
+        }
+      },
+      {
+        "turn_id": "2a0acd44-48ee-4dd6-b30c-8395a76463af",
+        "timestamp": "2025-09-15 19:17:43.149592",
+        "user_input": "The French Riviera attractions",
+        "assistant_response": "Bonjour! As a travel attractions expert for the French Riviera, I'm happy to help you plan your trip. Here are some top recommendations for attractions, activities, sightseeing itineraries, and practical information to make your visit unforgettable:\n\nAttraction Recommendations:\n\n1. The French Riviera is home to some of the most beautiful beaches in Europe, such as the Palais des Païens in Antibes, the Plage du Château in Cannes, and the Plage de la Croisette in Cannes. Relax on the sandy shores, enjoy water sports, or simply soak up the sun.\n2. Visit the famous Fort Carré in Antibes, a 17th-century fort that offers stunning views of the coastline and the Mediterranean Sea. Learn about its rich history and explore the surrounding area.\n3. Explore the picturesque villages of Saint-Paul-de-Vence and Saint-Tropez, known for their narrow streets, charming boutiques, and gastronomic delights.\n4. Discover the Château de Saint-Jean-",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 0.9,
+          "confidence": 0.9,
+          "classification_tags": {
+            "has_weather_mentioned": false,
+            "location": "french riviera",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+          },
+          "success": true
+        }
+      }
+    ],
+    "uk": [
+      {
+        "turn_id": "67394413-8e6f-4e46-a57f-01635bab45e7",
+        "timestamp": "2025-09-18 12:14:00.067544",
+        "user_input": "i want to go to england",
+        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF' not found (status code: 404)",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.0,
+          "classification_tags": {},
+          "success": false
+        }
+      },
+      {
+        "turn_id": "0ed0e1c1-9528-4e2f-aadc-32953da5a01a",
+        "timestamp": "2025-09-18 12:14:26.519153",
+        "user_input": "i want to go to england",
+        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'llama3.2' not found (status code: 404)",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.0,
+          "classification_tags": {},
+          "success": false
+        }
+      },
+      {
+        "turn_id": "568b11bf-af94-4f1f-a60e-86296309a27f",
+        "timestamp": "2025-09-18 12:15:21.683595",
+        "user_input": "i want to go to englend",
+        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'llama3.2' not found (status code: 404)",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.0,
+          "classification_tags": {},
+          "success": false
+        }
+      },
+      {
+        "turn_id": "6b0e926f-256c-4a1d-b042-00daaf43ed9f",
+        "timestamp": "2025-09-18 12:16:22.545083",
+        "user_input": "i want to go to englend",
+        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'f.co/unsloth/Qwen3-8B-GGUF:Q4_K_M' not found (status code: 404)",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.0,
+          "classification_tags": {},
+          "success": false
+        }
+      },
+      {
+        "turn_id": "aa7c424f-2144-45ea-8b0d-bf26fcada462",
+        "timestamp": "2025-09-18 12:18:38.954131",
+        "user_input": "i want to go to englend",
+        "assistant_response": "<think>\nOkay, the user wrote \"i want to go to englend\" which is likely a typo for \"England.\" First, I need to acknowledge their intent and correct the spelling. Since I'm a travel assistant focused on destinations, attractions, and packing, I should guide them towards those areas. I should mention that I can help with recommendations, things to see, and packing tips. But I need to be polite and honest about not handling other types of questions. Let me make sure the response is friendly and offers assistance in the right areas. Also, check for any other possible typos or misunderstandings. Alright, the response should be clear and helpful.\n</think>\n\nIt seems you meant \"England\" – a fantastic destination! 🇬🇧 I’d be happy to help with:  \n- **Destination recommendations** (e.g., must-visit cities, regions, or hidden gems).  \n- **Attractions and activities** (e.g., historical sites, nature spots, or cultural experiences).  \n- **Packing and preparation** (e.g., weather tips, essentials for your trip).  \n\nLet me know how I can assist! 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "956b010b-6583-49a8-bbad-83a0d024e4a5",
+        "timestamp": "2025-09-18 12:21:17.203351",
+        "user_input": "i want to go to england!]",
+        "assistant_response": "<think>\nOkay, the user wants to go to England. I need to respond as a travel assistant specialized in destinations, attractions, and packing. First, I should acknowledge their interest in England. Then, since they mentioned going there, I should offer help with recommendations, activities, or packing tips. But wait, the user hasn't specified which aspect they need help with. They just said \"I want to go to England!\" So I should ask them to clarify if they need destination recommendations, things to do, or packing advice. That way, I can direct them properly. Also, I should make sure to be polite and guide them to the right areas. Let me check if there's anything else. No, the user's question is about going to England, which is within my expertise. Wait, the initial instruction said if the user's question doesn't fit, respond politely and guide them. But in this case, the user is asking about a destination, which is within my scope. Wait, maybe the user is just starting and hasn't specified what they need. So I should ask them to specify if they need recommendations, attractions, or packing tips. That makes sense. So the response should be friendly, welcome them, and ask for more details on what they need help with. Alright, that's the plan.\n</think>\n\nWelcome to England! 🇬🇧 What a fantastic choice! To help you make the most of your trip, could you clarify what you need assistance with? For example:  \n- **Destination recommendations** (e.g., cities, regions, or specific areas to visit).  \n- **Attractions and activities** (e.g., must-see landmarks, cultural experiences, or local events).  \n- **Packing and preparation** (e.g., what to bring for the weather, travel tips, or itinerary planning).  \n\nLet me know, and I’ll tailor my advice to your needs! 🌟",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "335c6696-50ca-45fc-85bd-45ccf337f207",
+        "timestamp": "2025-09-18 12:25:59.153313",
+        "user_input": "i want to go to england! give me some reccomendations",
+        "assistant_response": "<think>\nOkay, the user wants to go to England and is asking for recommendations. Let me check the guidelines. The user's question fits within the expertise areas of destination recommendations. I should provide some top destinations in England. But I need to make sure I don't go into attractions or packing details unless they ask. Let me list the main cities and regions. London is a must, then maybe Edinburgh, York, Bath, and the Lake District. Also mention the countryside and coastal areas. Keep it friendly and invite them to ask more if they need details on attractions or packing. Make sure to stay polite and within the scope.\n</think>\n\nThat sounds amazing! England is a fantastic destination with so much to explore. Here are some top recommendations to get you started:\n\n### **Must-Visit Destinations**  \n1. **London** – Explore iconic landmarks like the Tower of London, Buckingham Palace, and the British Museum. Don’t miss a trip to the Thames River and the vibrant neighborhoods of Camden or Shoreditch.  \n2. **Edinburgh** – Known for its historic castle, Royal Mile, and the Edinburgh Festival Fringe (if you’re visiting in August).  \n3. **York** – A medieval gem with well-preserved architecture, the Yorkshire Wolds, and the famous York Minster.  \n4. **Bath** – Famous for its Roman Baths and Georgian architecture, with stunning views of the surrounding countryside.  \n5. **Lake District** – A UNESCO World Heritage Site perfect for hiking, boating, and scenic drives.  \n\n### **Other Highlights**  \n- **Coastal Gems**: Explore the dramatic cliffs of the Jurassic Coast (Dorset) or the charming seaside towns of Cornwall.  \n- **Countryside**: Take a scenic train ride through the Cotswolds or the Yorkshire Dales.  \n\nWould you like tips on **attractions and activities** to experience in these areas, or help with **packing and preparation** for your trip? I’d be happy to assist! 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "2d6fcaf6-cd46-4aa5-affa-79887887e41b",
+        "timestamp": "2025-09-18 12:52:34.654996",
+        "user_input": "i want to go to england",
+        "assistant_response": "<think>\nOkay, the user said they want to go to England. Let me think about how to respond. Since I'm a travel assistant specialized in destinations, attractions, and packing, I need to make sure I cover those areas. But the user's message is pretty broad. They just mentioned wanting to go to England, so they might need more specific information.\n\nFirst, I should acknowledge their interest in England. Then, I should ask for more details to provide a helpful response. Maybe they need recommendations on places to visit, things to do, or what to pack. But I should also mention my limitations if they ask something outside my expertise. Wait, the user hasn't asked a specific question yet. They just stated their intention to go to England. So I need to prompt them to specify what they need help with. \n\nI should guide them towards the three areas I specialize in: destinations, attractions, and packing. Maybe list those options for them. That way, they can choose which part they need assistance with. Also, I need to be polite and helpful, making sure they know I can't handle everything but can help with those specific areas. Let me structure the response to invite them to ask about those three topics. Let me check if I'm missing anything. No, that should cover it. Alright, time to draft the response.\n</think>\n\nThat’s fantastic! England is a wonderful destination with so much to explore. To help you plan your trip, could you clarify what you’d like assistance with? For example:  \n- **Destination recommendations** (e.g., cities, regions, or specific areas to visit).  \n- **Attractions and activities** (e.g., historical sites, nature spots, or local experiences).  \n- **Packing and preparation** (e.g., weather, must-have items, or travel tips).  \n\nLet me know, and I’ll tailor my advice to your needs! 🇬🇧✨",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "bfcf2529-9f75-413b-bef6-3d915b596fcb",
+        "timestamp": "2025-09-18 14:50:22.315315",
+        "user_input": "i want help with planning trip to london  london",
+        "assistant_response": "Absolutely! I'd be happy to help you plan your trip to London. Let me know which of the following you'd like assistance with:\n\n- 🏙️ **Destination recommendations**: Top neighborhoods, hidden gems, or areas to explore (like Camden, Hyde Park, or the Thames)\n- 🎯 **Attractions and activities**: Must-see museums, parks, events, or unique experiences (like visiting the British Museum or trying a pub quiz)\n- 🎒 **Packing tips**: What to pack for different seasons, weather, or types of trips (e.g., for a rainy spring visit or a family-friendly summer trip)\n\nJust let me know your interests or travel style, and I’ll tailor the suggestions to your needs! 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "69f54326-ccc4-40fb-b167-5c51994c5193",
+        "timestamp": "2025-09-18 14:51:27.484786",
+        "user_input": "Destination recommendations for londoen",
+        "assistant_response": "It looks like you might have meant \"London\" instead of \"londoen.\" I'd be happy to help with destination recommendations for London or other cities!\n\nIf you're looking for:\n- Top destination recommendations (like must-visit spots in London or other cities),  \n- Attractions and activities (such as museums, parks, or outdoor adventures),  \n- Packing tips and preparation (like what to bring for a trip to London or any destination),\n\nJust let me know — I'm here to assist with all those topics!\n\nFor example, I can suggest places like the Tower of London, Hyde Park, or the British Museum, or help you pack efficiently for a trip to London. Let me know your interests and travel style, and I’ll tailor the suggestions! 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "aee30ed9-3372-45ae-904f-f7f6dd2ab251",
+        "timestamp": "2025-09-18 14:52:54.890740",
+        "user_input": "Destination recommendations for london",
+        "assistant_response": "Absolutely! London is a fantastic destination with something for everyone — from historic landmarks to modern culture and vibrant food scenes. Here are a few top destination recommendations in London:\n\n**Must-Visit Attractions:**\n- **The London Eye** – A iconic view of the city from the Thames.\n- **Big Ben and the Houses of Parliament** – A timeless symbol of British heritage.\n- **Buckingham Palace** – See the Changing of the Guard and explore the royal estate.\n- **Tate Modern** – A world-class art museum with modern and contemporary exhibitions.\n- **Westminster Abbey** – Home to royal coronations and historic events.\n- **Hyde Park & Regent’s Park** – Beautiful green spaces perfect for walks or picnics.\n- **Shakespeare’s Globe** – Experience the magic of classic plays in a historic setting.\n\n**Local Experiences:**\n- Explore the **London Boroughs** like Camden, Camden Market, or Shoreditch for street food and culture.\n- Take a guided tour of **historic neighborhoods** like Covent Garden or Soho.\n- Visit **Southbank** for museums, live music, and river views.\n\nWould you like me to help with:\n- Specific attractions or activities based on your interests (e.g., family-friendly, romantic, foodie)?\n- Packing tips for a trip to London (e.g., what to pack, weather considerations)?\n- Travel dates or budget-friendly options?\n\nLet me know — I'm happy to help with any of those! 🌆🇬🇧",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "6fd0641b-f24a-424b-a32d-6ec9ea554dfe",
+        "timestamp": "2025-09-18 15:06:59.538497",
+        "user_input": "i want to know what to pack to london in the summer",
+        "assistant_response": "I encountered an error while processing your query: generate_ollama() got an unexpected keyword argument 'ollama_flash_attention'",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.0,
+          "classification_tags": {},
+          "success": false
+        }
+      },
+      {
+        "turn_id": "ba616a69-311d-4ef1-96cc-9698ff67fdef",
+        "timestamp": "2025-09-18 15:08:54.685664",
+        "user_input": "Destination recommendations for london",
+        "assistant_response": "Absolutely! London is a fantastic destination with something for everyone—whether you're interested in history, culture, food, or nightlife. Here are a few destination recommendations within London to help you plan your visit:\n\n**Must-Visit Attractions:**\n- **The British Museum** – Explore world-renowned artifacts from ancient civilizations.\n- **Tower of London** – Wander through history, including the infamous Tower Bridge and the Crown Jewels.\n- **London Eye** – Enjoy panoramic views of the city from this iconic observation deck.\n- **Borough Market** – A vibrant food market with local delicacies and street food.\n- **Westminster Abbey & Big Ben** – Visit the historic site of royal coronations and timepieces.\n\n**Hidden Gems & Local Experiences:**\n- **Shakespeare’s Globe Theatre** – A must for literature and theater lovers.\n- **Kensington Gardens & Hyde Park** – Great for a peaceful walk or picnic.\n- **Camden Market** – A lively spot for street food, vintage shopping, and local art.\n\nWould you like help with specific activities based on your interests (e.g., family-friendly, romantic, adventure), or tips on what to pack for a trip to London? I’d be happy to assist with that too!",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      }
+    ],
+    "fr": [
+      {
+        "turn_id": "c3cb47a4-7d0e-4714-b627-d7d5ad6e4e6d",
+        "timestamp": "2025-09-18 15:11:06.580706",
+        "user_input": "I want to travel to france, where should i go?",
+        "assistant_response": "That's a great question! France is full of wonderful destinations, so here are a few top recommendations depending on your interests:\n\n- **Paris** – The capital, known for the Eiffel Tower, Louvre Museum, and charming streets like the Champs-Élysées. Perfect for history, culture, and romance.  \n- **Provence** – A scenic region with lavender fields, charming villages, and the famous city of Nice. Great for nature and relaxation.  \n- **Bordeaux or Lyon** – Ideal for food lovers, with vibrant markets and local cuisine.  \n- **The French Alps** – Great for hiking, skiing, and stunning mountain views.  \n- **Normandy** – Visit WWII sites or enjoy coastal villages and seafood.  \n\nIf you'd like, I can help you explore specific attractions, activities, or even what to pack for your trip! Just let me know which part of France or type of experience interests you most. 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "0f327c1c-dad2-431e-9301-8a036a07ebc8",
+        "timestamp": "2025-09-18 15:13:06.767002",
+        "user_input": "# Initialize a chat with system + user context",
+        "assistant_response": "I'd be happy to help you with travel planning! While I can't provide specific destination recommendations, attractions, or packing tips at this time, I'd be glad to assist with any of those topics.  \n\nFor example:\n- If you're looking for unique destinations based on your interests (like hiking, beaches, or cultural experiences), I can suggest some great options.\n- If you want to know about must-see attractions or local activities in a place, I can guide you through what's available.\n- If you're preparing for a trip, I can help you figure out what to pack based on the destination, season, and type of travel.\n\nFeel free to let me know what kind of travel experience you're looking for, and I’ll be happy to help! 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      },
+      {
+        "turn_id": "e9d4bf7c-0959-4a3a-a09a-16844363d499",
+        "timestamp": "2025-09-18 15:14:05.337825",
+        "user_input": "I want to travel to france, where should i go?",
+        "assistant_response": "That's a great question! France is full of wonderful destinations, and the best place to go really depends on what kind of experience you're looking for. Here are a few popular and diverse options to consider:\n\n- **Paris** – The iconic capital with charming streets, world-class museums, and delicious food. Perfect for culture, history, and romance.  \n- **Provence** – A sun-drenched region known for lavender fields, vineyards, and charming villages like Nice and Gordes. Ideal for nature and scenic beauty.  \n- **The French Alps** – Great for outdoor adventures like skiing in winter or hiking in summer. Places like Chamonix or Val d'Isère offer stunning mountain views.  \n- **Bordeaux or Lyon** – Great for food lovers and those who want a more authentic, local experience.  \n- **Normandy** – Perfect for history buffs, especially those interested in WWII sites or coastal charm.  \n\nIf you'd like, I can help you explore specific attractions, activities, or even what to pack for your trip to any of these places! Just let me know which destination or type of experience interests you most. 😊",
+        "metadata": {
+          "handler_used": "other",
+          "routing_confidence": 0.5,
+          "confidence": 0.9,
+          "classification_tags": {},
+          "success": true
+        }
+      }
     ]
   }
 }

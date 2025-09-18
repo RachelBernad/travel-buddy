@@ -1,7 +1,7 @@
 """Handler for queries that don't match specialized handlers."""
 
 from travel_buddy.handlers.base_handler import BaseHandler
-from travel_buddy.types import HandlerType
+from travel_buddy.general_types import HandlerType
 
 
 class OtherHandler(BaseHandler):

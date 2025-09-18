@@ -1,13 +1,12 @@
 """Example demonstrating the logging system in travel-buddy."""
 
-import sys
 import os
+import sys
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from travel_buddy.logger import logger
 from travel_buddy.handlers.registry import registry
 from travel_buddy.memory.memory_store import MemoryStore
-from travel_buddy.models.llm_loader import generate
 
 
 def main():

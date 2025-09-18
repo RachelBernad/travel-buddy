@@ -2,7 +2,7 @@ import argparse
 
 from travel_buddy.graphs.smart_graph import run_smart_graph
 from travel_buddy.memory import ConversationManager
-from travel_buddy.types import InteractionType
+from travel_buddy.general_types import InteractionType
 
 
 def main():

@@ -2,7 +2,7 @@
 
 import pytest
 from travel_buddy.handlers.task_classifier import TravelTaskClassifier, _build_classification_prompt
-from travel_buddy.types import HandlerType
+from travel_buddy.general_types import HandlerType
 
 
 def test_ollama_classifier_initialization():

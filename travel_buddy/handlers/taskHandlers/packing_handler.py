@@ -1,7 +1,7 @@
 """Handler for packing and preparation-related travel queries."""
 
 from travel_buddy.handlers.base_handler import BaseHandler
-from travel_buddy.types import HandlerType
+from travel_buddy.general_types import HandlerType
 
 
 class PackingHandler(BaseHandler):

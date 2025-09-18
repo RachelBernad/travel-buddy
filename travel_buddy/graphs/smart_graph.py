@@ -4,12 +4,12 @@ from typing import Dict, Any, Optional
 
 from langgraph.graph import StateGraph, START, END
 
-from ..handlers import TaskRouter
+from travel_buddy.handlers import TaskRouter
 from travel_buddy.handlers.taskHandlers.other_handler import OtherHandler
-from ..handlers.registry import registry
-from ..memory import ConversationManager
-from ..settings import settings
-from ..types import HandlerType
+from travel_buddy.handlers.registry import registry
+from travel_buddy.memory import ConversationManager
+from travel_buddy.settings import settings
+from travel_buddy.general_types import HandlerType
 
 
 def create_task_router() -> TaskRouter:
