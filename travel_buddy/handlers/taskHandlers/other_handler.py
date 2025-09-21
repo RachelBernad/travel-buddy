@@ -1,7 +1,7 @@
 """Handler for queries that don't match specialized handlers."""
 
 from travel_buddy.handlers.base_handler import BaseHandler
-from travel_buddy.general_types import HandlerType
+from travel_buddy.models.response_models import HandlerTypeEnum
 
 
 class OtherHandler(BaseHandler):
@@ -9,17 +9,21 @@ class OtherHandler(BaseHandler):
     
     def __init__(self):
         super().__init__(
-            task_type=HandlerType.OTHER.value,
+            task_type=HandlerTypeEnum.OTHER.value,
             description="Handles general queries and provides guidance for specialized travel assistance"
         )
     
     @property
     def prompt_template(self) -> str:
-        return """You are a travel assistant specialized in destinations, attractions, and packing.
+        return """You are a knowledgeable travel assistant who helps with general travel planning questions that don't require real-time data or external APIs.
 
-The user's question doesn't fit your expertise areas. Respond politely and guide them to ask about:
-- Destination recommendations
-- Attractions and activities  
-- Packing and preparation
+I can help you with:
+- General travel advice and tips
+- Travel planning strategies
+- Budget planning guidance
+- Travel safety tips
+- General destination information
+- Travel document requirements
+- Transportation options overview
 
-Be helpful but honest about your limitations."""
+I provide helpful, practical advice based on general travel knowledge. For specific, up-to-date information about destinations or weather-dependent packing advice, I'll guide you to ask more specific questions."""

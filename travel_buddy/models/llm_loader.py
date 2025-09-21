@@ -4,13 +4,6 @@ from ..settings import settings
 from ..logger import logger, log_model_call
 
 
-@log_model_call(
-    model_name=settings.ollama_model,
-    prompt_length=0,
-    backend=settings.llm_backend.lower(),
-    max_tokens="dynamic",
-    temperature="dynamic"
-)
 def generate(prompt: str, custom_model: Optional[str] = None, max_new_tokens: Optional[int] = None,
             temperature: Optional[float] = None, top_p: Optional[float] = None, 
             top_k: Optional[int] = None) -> str:
@@ -28,7 +21,7 @@ def generate(prompt: str, custom_model: Optional[str] = None, max_new_tokens: Op
     Returns:
         Generated text response
     """
-    # Update decorator context with actual values
+    # Determine actual values
     backend = settings.llm_backend.lower()
     model_name = custom_model if custom_model else settings.ollama_model
     actual_max_tokens = max_new_tokens or settings.max_new_tokens
@@ -36,26 +29,59 @@ def generate(prompt: str, custom_model: Optional[str] = None, max_new_tokens: Op
     max_ctx = settings.max_ctx
     ollama_flash_attention = settings.ollama_flash_attention
     
+    # Log with model identification and LangSmith integration
     logger.info(
         "LLM generation started",
         backend=backend,
-        model= model_name,
+        model=model_name,
         prompt_length=len(prompt),
         max_tokens=actual_max_tokens,
         temperature=actual_temperature,
         top_p=top_p if top_p is not None else settings.top_p,
-        top_k=top_k if top_k is not None else settings.top_k
+        top_k=top_k if top_k is not None else settings.top_k,
+        langsmith_project=settings.langchain_project,
+        langsmith_tracing=settings.langchain_tracing_v2
     )
 
     if not check_ollama_available():
         raise RuntimeError("Ollama is not running. Please start Ollama service.")
 
-    return generate_ollama(
-        prompt=prompt,
-        model=model_name,
-        max_tokens=actual_max_tokens,
-        temperature=actual_temperature,
-        top_p=top_p if top_p is not None else settings.top_p,
-        max_ctx = max_ctx,
-        ollama_flash_attention = ollama_flash_attention
-    )
+    # Generate with timing
+    import time
+    start_time = time.time()
+    
+    try:
+        response = generate_ollama(
+            prompt=prompt,
+            model=model_name,
+            max_tokens=actual_max_tokens,
+            temperature=actual_temperature,
+            top_p=top_p if top_p is not None else settings.top_p,
+            max_ctx=max_ctx,
+            ollama_flash_attention=ollama_flash_attention
+        )
+        
+        duration = time.time() - start_time
+        response_length = len(response) if isinstance(response, str) else 0
+        
+        logger.info(
+            "LLM generation completed",
+            model=model_name,
+            duration=f"{duration:.3f}s",
+            response_length=response_length,
+            tokens_per_sec=f"{response_length/duration:.1f}" if duration > 0 else "0",
+            success=True
+        )
+        
+        return response
+        
+    except Exception as e:
+        duration = time.time() - start_time
+        logger.error(
+            "LLM generation failed",
+            model=model_name,
+            duration=f"{duration:.3f}s",
+            error=str(e),
+            success=False
+        )
+        raise

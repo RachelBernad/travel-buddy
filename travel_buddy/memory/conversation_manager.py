@@ -68,6 +68,14 @@ class ConversationManager:
         
         return turn_id
     
+    def update_session_summary(self, session_id: str, summary: str) -> None:
+        """Update the conversation summary for a session."""
+        context = self.get_session(session_id)
+        if context:
+            context.summary = summary
+            context.last_updated = datetime.now()
+        self.memory_store.update_conversation_summary(session_id, summary)
+    
     def _extract_memories_from_turn(self, turn: ConversationTurn) -> None:
         """Extract and store relevant memories from a conversation turn."""
         # Simple extraction logic - in production, you'd use more sophisticated NLP
@@ -122,43 +130,46 @@ class ConversationManager:
         context = self.get_session(session_id)
         if not context:
             return None
-        
+
+
         # Load conversation history from memory store
-        history = self.memory_store.get_conversation_history(session_id)
-        context.conversation_turns = history[-self.max_context_turns:]
-        
+        history = self.memory_store.get_conversation_history(session_id, self.max_context_turns)
+        context.conversation_turns = history
+
+        if not context.summary:
+            context.summary = self.memory_store.get_conversation_summary(session_id)
         # Update relevant memories
         self._update_relevant_memories(context)
         
         return context
     
-    def build_context_prompt(self, session_id: str, current_input: str) -> str:
-        """Build a context-aware prompt for the LLM."""
+    def build_chat_context(self, session_id: str, current_input: str) -> "ChatContext":
+        """Build a chat-style context with system and user messages using summaries."""
+        from travel_buddy.models.response_models import ChatContext, ChatMessage
+        
+        chat_context = ChatContext(messages=[])
+        
+        # Add system message
+        chat_context.add_message("system", "You are a helpful travel assistant.")
+        
+        # Add relevant memories as context
         context = self.get_conversation_context(session_id)
-        if not context:
-            return current_input
-        
-        prompt_parts = []
-        
-        # Add relevant memories
-        if context.relevant_memories:
-            memory_context = "Relevant context from previous conversations:\n"
-            for memory in context.relevant_memories:
-                memory_context += f"- {memory.content}\n"
-            prompt_parts.append(memory_context)
-        
-        # Add recent conversation history
-        if context.conversation_turns:
-            history_context = "Recent conversation:\n"
-            for turn in context.conversation_turns[-5:]:  # Last 3 turns
-                history_context += f"User: {turn.user_input}\n"
-                history_context += f"Assistant: {turn.assistant_response}\n"
-            prompt_parts.append(history_context)
+        if context and context.relevant_memories:
+            memory_info = "Relevant context from previous conversations:\n"
+            for memory in context.relevant_memories[:3]:  # Top 3 memories
+                memory_info += f"- {memory.content}\n"
+            chat_context.add_message("system", memory_info.strip())
+
+        if context and context.summary:
+            chat_context.add_message("system", f"Previous conversation summary: {context.summary}")
+        elif context and context.conversation_turns:
+            for turn in context.conversation_turns[-3:]:
+                chat_context.add_message("assistant", turn.assistant_response)
         
         # Add current input
-        prompt_parts.append(f"Current question: {current_input}")
+        chat_context.add_message("user", current_input)
         
-        return "\n\n".join(prompt_parts)
+        return chat_context
     
     def extract_user_preferences(self, session_id: str) -> Dict[str, Any]:
         """Extract user preferences from conversation history."""

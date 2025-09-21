@@ -20,10 +20,10 @@ class Settings(BaseSettings):
     
     # Ollama model
     ollama_model: str = Field("hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M", env="OLLAMA_MODEL")
-    classification_model: str = Field("llama2", env="CLASSIFICATION_MODEL")
+    classification_model: str = Field("hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M", env="CLASSIFICATION_MODEL")
 
     # Generation params
-    max_new_tokens: int = Field(500, env="MAX_NEW_TOKENS")
+    max_new_tokens: int = Field(1024, env="MAX_NEW_TOKENS")
     temperature: float = Field(0.5, env="TEMPERATURE")
     top_p: float = Field(0.95, env="TOP_P")
     top_k: int = Field(50, env="TOP_K")
@@ -39,6 +39,13 @@ class Settings(BaseSettings):
     max_relevant_memories: int = Field(5, env="MAX_RELEVANT_MEMORIES")
     enable_memory: bool = Field(True, env="ENABLE_MEMORY")
     enable_conversation_mode: bool = Field(True, env="ENABLE_CONVERSATION_MODE")
+    
+    # API Configuration (disabled for now)
+    weather_api_key: str = Field("", env="WEATHER_API_KEY")
+    google_search_api_key: str = Field("", env="GOOGLE_SEARCH_API_KEY")
+    google_search_engine_id: str = Field("", env="GOOGLE_SEARCH_ENGINE_ID")
+    enable_weather_api: bool = Field(False, env="ENABLE_WEATHER_API")
+    enable_web_search_api: bool = Field(False, env="ENABLE_WEB_SEARCH_API")
 
     class Config:
         env_file = ".env"

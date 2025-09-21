@@ -207,11 +207,20 @@ class MemoryStore:
         if limit:
             return turns[-limit:]
         return turns
-    
-    def get_recent_turns(self, session_id: str, count: int = 5) -> List[ConversationTurn]:
-        """Get the most recent conversation turns."""
-        turns = self._conversations.get(session_id, [])
-        return turns[-count:] if turns else []
+
+    def get_conversation_summary(self, session_id: str) -> str:
+        """Get a summary of the conversation session."""
+        if session_id not in self._conversations:
+            return ""
+        last_turn = self.get_conversation_history(session_id, 1)[0]
+        summary = last_turn.metasata.get("summary", "")
+        return summary
+
+    def update_conversation_summary(self, session_id: str, summary: str) -> None:
+        """Update the conversation summary for a session."""
+        if session_id in self._conversations:
+            last_turn = self._conversations[session_id][-1]
+            last_turn.metadata["summary"] = summary
     
     def clear_session(self, session_id: str) -> None:
         """Clear all conversation history for a session."""

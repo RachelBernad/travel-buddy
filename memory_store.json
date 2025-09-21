@@ -1,315 +1,45 @@
 {
-  "memories": [],
+  "memories": [
+    {
+      "entry_id": "50e86b24-9c9a-4693-b580-852ad3ae7fb3",
+      "content": "User preference: what attractions should i do if i like museums?",
+      "entry_type": "preference",
+      "importance": 0.7,
+      "created_at": "2025-09-18 17:35:50.448701",
+      "last_accessed": null,
+      "access_count": 0,
+      "tags": [
+        "user_preference"
+      ],
+      "metadata": {
+        "turn_id": "2742edc0-768b-48b8-93c3-8f808f3ce7bc"
+      }
+    }
+  ],
   "conversations": {
-    "test": [
+    "fr": [
       {
-        "turn_id": "2515872a-28f9-4886-98a5-b6ebb79382aa",
-        "timestamp": "2025-09-13 20:48:48.118343",
-        "user_input": "What are the best attractions in Paris?",
-        "assistant_response": "User: Recent conversation:\nCurrent question: What are the best attractions in Paris?\n\nYou are a specialized travel attractions and activities expert. Your role is to help users with:\n\n1. Attraction recommendations and information\n2. Activity suggestions and planning\n3. Sightseeing itineraries\n4. Entertainment and cultural experiences\n5. Outdoor activities and adventures\n6. Family-friendly attractions\n7. Budget-friendly activities\n\nFocus on providing:\n- Specific attraction details and highlights\n- Practical information (hours, prices, booking requirements)\n- Activity recommendations based on interests\n- Itinerary suggestions and time estimates\n- Accessibility and family-friendliness information\n- Local insider tips and hidden gems\n\nInclude practical details like:\n- Opening hours and best times to visit\n- Ticket prices and booking information\n- Transportation and location details\n- What to expect and how to prepare\n- Nearby restaurants or facilities\n- Photography tips and best viewpoints\n\nBe enthusiastic about attractions while being honest about crowds, costs, and practical considerations.\n\nUser: What are the best attractions in Paris?\nAssistant:\nAssistant:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\n",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 1.0,
-          "success": true,
-          "task_type": "attractions",
-          "user_input_length": 39,
-          "has_context": true,
-          "memory_count": 0,
-          "session_id": "test",
-          "handler_type": "attractions",
-          "input_analysis": {
-            "has_attraction_mention": false,
-            "is_family_question": false,
-            "is_budget_question": false,
-            "is_timing_question": false,
-            "is_recommendation_request": true
-          }
-        }
-      },
-      {
-        "turn_id": "e21b03bc-f0b0-4b0e-845f-84ec59af83a5",
-        "timestamp": "2025-09-13 20:49:19.965178",
-        "user_input": "I need help packing for a beach vacation",
-        "assistant_response": "User: Recent conversation:\nRecent conversation:\nUser: What are the best attractions in Paris?\nAssistant: User: Recent conversation:\nCurrent question: What are the best attractions in Paris?\n\nYou are a specialized travel attractions and activities expert. Your role is to help users with:\n\n1. Attraction recommendations and information\n2. Activity suggestions and planning\n3. Sightseeing itineraries\n4. Entertainment and cultural experiences\n5. Outdoor activities and adventures\n6. Family-friendly attractions\n7. Budget-friendly activities\n\nFocus on providing:\n- Specific attraction details and highlights\n- Practical information (hours, prices, booking requirements)\n- Activity recommendations based on interests\n- Itinerary suggestions and time estimates\n- Accessibility and family-friendliness information\n- Local insider tips and hidden gems\n\nInclude practical details like:\n- Opening hours and best times to visit\n- Ticket prices and booking information\n- Transportation and location details\n- What to expect and how to prepare\n- Nearby restaurants or facilities\n- Photography tips and best viewpoints\n\nBe enthusiastic about attractions while being honest about crowds, costs, and practical considerations.\n\nUser: What are the best attractions in Paris?\nAssistant:\nAssistant:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\n\n\n\nCurrent question: I need help packing for a beach vacation\n\nYou are a specialized travel attractions and activities expert. Your role is to help users with:\n\n1. Attraction recommendations and information\n2. Activity suggestions and planning\n3. Sightseeing itineraries\n4. Entertainment and cultural experiences\n5. Outdoor activities and adventures\n6. Family-friendly attractions\n7. Budget-friendly activities\n\nFocus on providing:\n- Specific attraction details and highlights\n- Practical information (hours, prices, booking requirements)\n- Activity recommendations based on interests\n- Itinerary suggestions and time estimates\n- Accessibility and family-friendliness information\n- Local insider tips and hidden gems\n\nInclude practical details like:\n- Opening hours and best times to visit\n- Ticket prices and booking information\n- Transportation and location details\n- What to expect and how to prepare\n- Nearby restaurants or facilities\n- Photography tips and best viewpoints\n\nBe enthusiastic about attractions while being honest about crowds, costs, and practical considerations.\n\nUser: I need help packing for a beach vacation\nAssistant:\nAssistant:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\nCustomer:\n",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 0.8999999999999999,
-          "success": true,
-          "task_type": "attractions",
-          "user_input_length": 40,
-          "has_context": true,
-          "memory_count": 0,
-          "session_id": "test",
-          "handler_type": "attractions",
-          "input_analysis": {
-            "has_attraction_mention": true,
-            "is_family_question": false,
-            "is_budget_question": false,
-            "is_timing_question": false,
-            "is_recommendation_request": false
-          }
-        }
-      },
-      {
-        "turn_id": "429a9f40-c3bd-40ac-a39d-eebc728e8438",
-        "timestamp": "2025-09-13 22:08:36.846783",
-        "user_input": "Hello, how are you today?",
-        "assistant_response": "I encountered an error while processing your destination query: index out of range in self",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.3,
-          "success": false,
-          "error": "index out of range in self"
-        }
-      },
-      {
-        "turn_id": "651ae14c-2fad-48da-830b-86eb9e762e8e",
-        "timestamp": "2025-09-13 22:10:31.689724",
-        "user_input": "Hello, how are you today?",
-        "assistant_response": "I encountered an error while processing your destination query: index out of range in self",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.4,
-          "success": false,
-          "error": "index out of range in self"
-        }
-      },
-      {
-        "turn_id": "5c154fa1-5264-44c9-aa9b-60915df1b595",
-        "timestamp": "2025-09-13 22:11:34.074617",
-        "user_input": "Hello, how are you today?",
-        "assistant_response": "I encountered an error while processing your destination query: index out of range in self",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.4,
-          "success": false,
-          "error": "index out of range in self"
-        }
-      },
-      {
-        "turn_id": "12f883fc-cd48-4e31-af73-682a5e6e7b75",
-        "timestamp": "2025-09-13 22:12:07.752791",
-        "user_input": "Hello, how are you today?",
-        "assistant_response": "User: Relevant info:\n- Travel context: I need help packing for a beach vacation...\n- Travel context: I need help packing for a beach vacation...\n\nYou are a travel destination expert. Help with:\n- Destination recommendations\n- Best times to visit\n- Cultural insights\n- Practical travel info\n\nBe specific and helpful.\n\nUser: Hello, how are you today?\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.4,
-          "success": true,
-          "task_type": "destination",
-          "user_input_length": 25,
-          "has_context": true,
-          "memory_count": 2,
-          "session_id": "test",
-          "handler_type": "destination",
-          "input_analysis": {
-            "has_location_mention": true,
-            "is_comparison": false,
-            "is_timing_question": false,
-            "is_recommendation_request": false
-          }
-        }
-      },
-      {
-        "turn_id": "33d43fe9-02cf-43ab-92c4-5001762d9dfb",
-        "timestamp": "2025-09-14 14:15:15.468950",
-        "user_input": "What are the best attractions in Paris?",
-        "assistant_response": "I encountered an error while processing your attractions query: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/meta-llama/Llama-2-13b-chat-hf.\n401 Client Error. (Request ID: Root=1-68c6a3c4-78fe05f20df3bb4a082a4e79;93b03e78-98e1-4440-a183-1fa706bc0728)\n\nCannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/resolve/main/config.json.\nAccess to model meta-llama/Llama-2-13b-chat-hf is restricted. You must have access to it and be authenticated to access it. Please log in.",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 1.0,
-          "success": false
-        }
-      },
-      {
-        "turn_id": "ebc55ba0-fc33-4154-9389-ebf69c4feb34",
-        "timestamp": "2025-09-14 14:49:40.186287",
-        "user_input": "What are the best attractions in Paris?",
-        "assistant_response": "Ah, a beach vacation! *insert sunny emoji* I'd be happy to help you pack and plan for your trip. 🏖️\n\nFor attraction recommendations in Paris, there are plenty of options to choose from. Here are some of the most popular ones:\n\n1. Eiffel Tower: No trip to Paris is complete without a visit to the iconic Eiffel Tower. You can take the elevator to the top for panoramic views of the city. 🗼️\n2. Notre-Dame Cathedral: This beautiful cathedral is one of the most famous landmarks in Paris. While it's undergoing renovation, you can still admire its Gothic architecture from the outside. 🏛️\n3. Louvre Museum: Home to some of the world's most famous artworks, including the Mona Lisa, the Louvre is a must-visit attraction in Paris. Be sure to book your tickets in advance to avoid long lines. 🎨\n4. Arc de Triomphe: This iconic monument honors the soldiers who fought and died for France. Take the elevator",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 1.0,
-          "success": true
-        }
-      },
-      {
-        "turn_id": "82a6d511-3ae0-48bf-b94f-180300323067",
-        "timestamp": "2025-09-14 15:05:46.442134",
-        "user_input": "What are the best attractions in Tokyo?",
-        "assistant_response": "I encountered an error while processing your attractions query: No module named 'ollama'",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 1.0,
-          "success": false
-        }
-      }
-    ],
-    "default": [
-      {
-        "turn_id": "fa08425b-c88a-40c2-9f81-953f27141d09",
-        "timestamp": "2025-09-13 22:02:40.499416",
-        "user_input": "I need help packing for a beach vacation",
-        "assistant_response": "User: Recent conversation:\nCurrent question: I need help packing for a beach vacation\n\nYou are a specialized travel packing and preparation expert. Your role is to help users with:\n\n1. Packing lists and essentials\n2. Travel preparation and planning\n3. What to bring for different destinations and activities\n4. Weather-appropriate clothing recommendations\n5. Travel documents and requirements\n6. Health and safety preparations\n7. Technology and gadget recommendations\n8. Budget travel packing tips\n\nFocus on providing:\n- Comprehensive but practical packing lists\n- Destination-specific recommendations\n- Weather and season considerations\n- Activity-specific gear suggestions\n- Travel document checklists\n- Health and safety essentials\n- Space-saving and organization tips\n- Budget-friendly alternatives\n\nInclude practical details like:\n- Specific item recommendations with reasons\n- Quantity suggestions (how many of each item)\n- Packing organization tips\n- Weight and size considerations\n- Prohibited items to avoid\n- Emergency essentials\n- Technology and charging needs\n\nBe practical and realistic about what's actually needed vs. what's nice to have.\n\nUser: I need help packing for a beach vacation\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
-        "metadata": {
-          "handler_used": "packing",
-          "routing_confidence": 0.8666666666666667,
-          "success": true,
-          "task_type": "packing",
-          "user_input_length": 40,
-          "has_context": true,
-          "memory_count": 0,
-          "session_id": "default",
-          "handler_type": "packing",
-          "input_analysis": {
-            "has_clothing_mention": false,
-            "has_document_mention": false,
-            "has_weather_mention": false,
-            "is_quantity_question": false,
-            "is_activity_specific": true
-          }
-        }
-      },
-      {
-        "turn_id": "39b4ed0d-1919-4dd5-89d8-319f52ce6f52",
-        "timestamp": "2025-09-13 22:04:17.686192",
-        "user_input": "I want to go to Japan ",
-        "assistant_response": "User: Recent conversation:\nRelevant context from previous conversations:\n- Travel context: I need help packing for a beach vacation\n- Travel context: I need help packing for a beach vacation\n\n\nRecent conversation:\nUser: I need help packing for a beach vacation\nAssistant: User: Recent conversation:\nCurrent question: I need help packing for a beach vacation\n\nYou are a specialized travel packing and preparation expert. Your role is to help users with:\n\n1. Packing lists and essentials\n2. Travel preparation and planning\n3. What to bring for different destinations and activities\n4. Weather-appropriate clothing recommendations\n5. Travel documents and requirements\n6. Health and safety preparations\n7. Technology and gadget recommendations\n8. Budget travel packing tips\n\nFocus on providing:\n- Comprehensive but practical packing lists\n- Destination-specific recommendations\n- Weather and season considerations\n- Activity-specific gear suggestions\n- Travel document checklists\n- Health and safety essentials\n- Space-saving and organization tips\n- Budget-friendly alternatives\n\nInclude practical details like:\n- Specific item recommendations with reasons\n- Quantity suggestions (how many of each item)\n- Packing organization tips\n- Weight and size considerations\n- Prohibited items to avoid\n- Emergency essentials\n- Technology and charging needs\n\nBe practical and realistic about what's actually needed vs. what's nice to have.\n\nUser: I need help packing for a beach vacation\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n\n\n\nCurrent question: I want to go to Japan \n\nRelevant information from previous conversations:\n- Travel context: I need help packing for a beach vacation\n- Travel context: I need help packing for a beach vacation\n\nYou are a specialized travel destination expert. Your role is to help users with:\n\n1. Destination selection and recommendations\n2. Destination information and facts\n3. Best times to visit destinations\n4. Destination comparisons\n5. Regional travel advice\n\nFocus on providing:\n- Specific, actionable destination advice\n- Cultural insights and local knowledge\n- Practical travel information\n- Personalized recommendations based on user preferences\n- Safety and practical considerations\n\nBe enthusiastic but realistic about destinations. Include practical details like:\n- Best seasons to visit\n- Cultural highlights\n- Local customs to be aware of\n- Transportation options\n- Budget considerations\n\nIf the user is asking about multiple destinations, provide clear comparisons.\n\nUser: I want to go to Japan \nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.8333333333333333,
-          "success": true,
-          "task_type": "destination",
-          "user_input_length": 22,
-          "has_context": true,
-          "memory_count": 2,
-          "session_id": "default",
-          "handler_type": "destination",
-          "input_analysis": {
-            "has_location_mention": true,
-            "is_comparison": false,
-            "is_timing_question": false,
-            "is_recommendation_request": false
-          }
-        }
-      },
-      {
-        "turn_id": "9b100525-a2e2-4688-8675-fe23f614bcea",
-        "timestamp": "2025-09-13 22:17:56.993044",
-        "user_input": "how are you today?",
-        "assistant_response": "User: Relevant info:\n- Travel context: I need help packing for a beach vacation...\n- Travel context: I need help packing for a beach vacation...\n\nYou are a travel assistant specialized in destinations, attractions, and packing.\n\nThe user's question doesn't fit your expertise areas. Respond politely and guide them to ask about:\n- Destination recommendations\n- Attractions and activities  \n- Packing and preparation\n\nBe helpful but honest about your limitations.\n\nUser: how are you today?\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\nAssistant:\n",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.3,
-          "success": true,
-          "task_type": "other",
-          "user_input_length": 18,
-          "has_context": true,
-          "memory_count": 2,
-          "session_id": "default",
-          "handler_type": "other",
-          "input_analysis": {
-            "input_length": 18,
-            "has_travel_keywords": false,
-            "has_destination_keywords": false,
-            "has_attraction_keywords": false,
-            "has_packing_keywords": false,
-            "is_question": true,
-            "is_greeting": false
-          },
-          "fallback_reason": "Query didn't match specialized handlers"
-        }
-      },
-      {
-        "turn_id": "89f4b571-c255-4414-8610-d8f14736b834",
-        "timestamp": "2025-09-14 14:16:03.332438",
-        "user_input": "I love Italian food, what can i do there?",
-        "assistant_response": "I encountered an error while processing your destination query: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/meta-llama/Llama-2-13b-chat-hf.\n401 Client Error. (Request ID: Root=1-68c6a3f4-7f2cb3d96bd5150577a23419;bd17a524-7ed4-496a-bf40-7dd593b1688b)\n\nCannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/resolve/main/config.json.\nAccess to model meta-llama/Llama-2-13b-chat-hf is restricted. You must have access to it and be authenticated to access it. Please log in.",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.4,
-          "success": false
-        }
-      }
-    ],
-    "trial-1": [
-      {
-        "turn_id": "4b8804b1-1af9-441b-9c58-07e09363c75e",
-        "timestamp": "2025-09-13 23:03:35.438524",
-        "user_input": "I love Italian food, what can i do there?",
-        "assistant_response": "You are a helpful travel assistant with access to conversation history and user preferences.\n\n\n\nBased on the above context, please respond to the user's current question.\n\nCurrent question: I love Italian food, what can i do there?\n\nAssistant: I love food, what can i do there?\nYou can also use your email and I hope you enjoy my blog post.\nIf you have any questions, please contact me.\nYou can also reach me in the comments.",
-        "metadata": {}
-      }
-    ],
-    "test-1": [
-      {
-        "turn_id": "35cf0f17-4f1e-4fab-a8d5-6a03c470c693",
-        "timestamp": "2025-09-14 15:38:25.843028",
-        "user_input": "What are the best attractions in Tokyo?",
-        "assistant_response": "Of course! I'd be happy to help you plan your trip to Tokyo. Here are some of the top attractions in the city that are definitely worth checking out:\n\n1. Tokyo Skytree: At 634 meters tall, Tokyo Skytree is the tallest tower in the world and offers breathtaking views of the city from its observation decks.\n2. Shibuya Crossing: This famous intersection is a must-see for anyone visiting Tokyo. Watch as thousands of people cross the street at the same time, and take in the sights and sounds of one of the busiest intersections in the world.\n3. Meiji Shrine: Dedicated to the deified spirits of Emperor Meiji and his wife, Empress Shoken, this shrine is a serene oasis in the midst of bustling Tokyo. Take a stroll through the peaceful gardens and enjoy the tranquil atmosphere.\n4. Tsukiji Fish Market: While the inner market has moved to a new location, the outer market still offers a fascinating glimpse into Tokyo's seafood culture. Try some fresh sushi or seafood at one of",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 1.0,
-          "success": true
-        }
-      }
-    ],
-    "test-2": [
-      {
-        "turn_id": "feeda5a8-63a6-46bd-a7b1-e65dd9a6c4d0",
-        "timestamp": "2025-09-15 18:29:04.969308",
-        "user_input": "I want to travel to france, where should i go?",
-        "assistant_response": "Ah, a fellow travel enthusiast! France is an incredible country with so much to offer, it's hard to narrow down the best destinations without knowing your preferences. However, I can give you some popular and culturally significant places to consider for your trip:\n\n1. Paris: The City of Light is a must-visit destination in France. Known for its iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum, as well as its charming streets, cafes, and restaurants.\n2. Provence: Located in the southeast of France, Provence is famous for its picturesque villages, lavender fields, and the French Riviera. Some popular destinations include Avignon, Arles, and the Luberon region.\n3. The French Alps: If you're looking for a mix of culture, history, and outdoor adventure, the French Alps are an excellent choice. Popular resort towns like Chamonix, Annecy, and Grenoble offer breathtaking scenery, world-class skiing, and plenty of hiking trails.\n4. Normandy: This region",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.9,
-          "confidence": 0.9,
-          "classification_tags": {
-            "location": "france (extracted from the user's input)"
-          },
-          "success": true
-        }
-      },
-      {
-        "turn_id": "cd6c1b1b-b990-4685-a1ae-8af6715944e3",
-        "timestamp": "2025-09-15 18:34:53.515986",
-        "user_input": "i want to go to prrovance, what should i do there?",
-        "assistant_response": "Ah, Provence, France! *sigh* Such a beautiful region, full of history, culture, and breathtaking landscapes. As a travel destination expert, I'm happy to help you plan your trip to Provence. 😊\n\nDestination Recommendations:\n\n1. The French Riviera (Côte d'Azur): Known for its stunning beaches, luxury resorts, and picturesque towns like Nice, Cannes, and Saint-Tropez.\n2. Avignon: A historic city with a rich cultural heritage, famous for its medieval architecture, vineyards, and the papal palace of the Popes.\n3. Arles: A charming town known for its Roman ruins, including the Amphitheatre of Arles, and its vibrant art scene.\n4. Aix-en-Provence: A beautiful city with a mild climate, famous for its thermal waters, historic architecture, and cultural events like the Festival d'Aix.\n5. Gordes: A picturesque village perched on a hilltop, known for its Luberon landscape, medieval architecture,",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.9,
-          "confidence": 0.9,
-          "classification_tags": {
-            "has_weather_mentioned": false,
-            "location": "provence, france",
-            "is_question": true,
-            "is_comparison": false,
-            "is_recommendation_request": true
-          },
-          "success": true
-        }
-      },
-      {
-        "turn_id": "a8ac62f3-367c-4bf8-a78a-0b004ecd913e",
-        "timestamp": "2025-09-15 18:40:56.610708",
-        "user_input": "when should i go and what to pack there?",
-        "assistant_response": "Bonjour! I'm glad you're planning a trip to France! However, as a travel assistant, my expertise lies in providing recommendations on destinations, attractions, and packing. I can help you with those areas, but I'm afraid I cannot provide advice on the best time to visit France or what to pack specifically for your trip.\n\nTo get the most out of your trip to France, I would recommend researching different destinations and attractions based on your interests. Some popular destinations in France include Paris, Nice, Cannes, and the French Riviera. Each region has its unique charm and attractions, so it's worth considering what you want to experience during your trip.\n\nIn terms of packing, I would suggest preparing for a variety of weather conditions, as France can be quite diverse in terms of climate. You may want to consider packing layers for cooler months, as well as lightweight and breathable clothing for warmer periods. Don't forget to bring comfortable shoes, as you'll likely be doing a lot of walking during your trip!\n\nIf you have any other questions or need further guidance on destinations, attractions, or pack",
+        "turn_id": "c7b9e1a3-fe67-4470-81e0-3148994af04d",
+        "timestamp": "2025-09-18 15:29:30.920550",
+        "user_input": "Destination recommendations for paris",
+        "assistant_response": "Absolutely! Paris is a magical city with so much to offer—whether you're a first-time visitor or a seasoned traveler. Here are some top destination recommendations based on different interests:\n\n### 🏙️ Must-Visit Landmarks & Iconic Sites\n1. **Eiffel Tower**  \n   – Iconic view at sunset or during the evening light show.  \n   – Tip: Visit early in the morning to avoid crowds.\n\n2. **Louvre Museum**  \n   – Home to the *Mona Lisa* and thousands of masterpieces.  \n   – Tip: Book tickets online in advance and consider visiting on a weekday.\n\n3. **Notre-Dame Cathedral**  \n   – A stunning blend of Gothic architecture.  \n   – Note: The cathedral is currently under restoration, but the surrounding area and the new *Notre-Dame du Lac* offer great views.\n\n4. **Sainte-Chapelle**  \n   – A breathtaking example of Gothic stained glass art.\n\n5. **Montmartre & Sacré-Cœur Basilica**  \n   – Enjoy panoramic views of the city from the top of the hill.  \n   – Don’t miss the artists’ quarter and the charming streets.\n\n---\n\n### 🍽️ Culinary & Foodie Experiences\n6. **Le Marais**  \n   – A vibrant neighborhood with trendy cafes, markets, and local boutiques.\n\n7. **Place du Trocadéro & Champs-Élysées**  \n   – Great for shopping and dining with elegant ambiance.\n\n8. **Boulangeries & Bakeries**  \n   – Try *croissants* at a local bakery like *Pierre Hermé* or *L’Épicerie du Roi*.\n\n9. **Chez L’Écureuil or Le Comptoir du Relais**  \n   – For authentic French cuisine and regional specialties.\n\n10. **Les Halles & Marché Bastille**  \n   – Fresh produce, cheeses, and local delicacies—perfect for food lovers.\n\n---\n\n### 🌿 Relaxing & Scenic Spots\n11. **Jardin des Plantes**  \n   – Beautiful botanical gardens with a peaceful atmosphere.\n\n12. **Luxembourg Garden**  \n   – A lovely spot for a quiet walk or a coffee break.\n\n13. **Seine River Cruises**  \n   – Take a scenic boat ride to see landmarks like the Pont Neuf",
         "metadata": {
           "handler_used": "other",
           "routing_confidence": 0.5,
           "confidence": 0.9,
-          "classification_tags": {
-            "location": "france (based on the previous conversation)"
-          },
-          "success": true
+          "classification_tags": {},
+          "success": true,
+          "current_location": null
         }
       },
       {
-        "turn_id": "2289ec34-5f25-4adb-9a5b-4b5703ad4507",
-        "timestamp": "2025-09-15 18:53:14.767940",
-        "user_input": "when should i go and what to pack there?",
-        "assistant_response": "Bonjour! As a travel destination expert, I'm happy to help you plan your trip to France. When it comes to the best time to visit, it really depends on what you're interested in doing and seeing. Here are some general guidelines to consider:\n\n* Spring (April-May) is a great time to visit France if you want to avoid the crowds and enjoy mild weather. The countryside is blooming, and the beaches are starting to warm up.\n* Summer (June-September) is peak tourist season in France, with warm weather and long days. This is the best time to visit popular destinations like Paris, Provence, and the French Riviera. However, it can also be quite crowded and expensive during this time.\n* Autumn (October-November) is another great time to visit France, as the weather is still pleasant and the crowds have thinned out a bit. This is a good time to explore the countryside, including the Loire Valley and the wine regions of Bordeaux and Champagne.\n* Winter (December-March) can be a great time to visit France if you",
+        "turn_id": "45f50cf3-4849-4485-a6b4-b519cbb24841",
+        "timestamp": "2025-09-18 15:32:19.247673",
+        "user_input": "I want to travel to france, where should i go?",
+        "assistant_response": "That's a wonderful idea! France is a beautiful and diverse country with so much to offer—whether you're into history, art, cuisine, nature, or simply charming countryside villages. Here are some top destinations in France, depending on your travel style:\n\n### 🏛️ For History & Culture:\n- **Paris** – The capital is a must-visit! Explore the Eiffel Tower, Louvre Museum, Notre-Dame, and charming neighborhoods like Montmartre and Le Marais.  \n- **Lyon** – A culinary gem with rich history, stunning architecture, and one of the most vibrant food scenes in France.  \n- **Rouen** – Famous for its iconic Gothic cathedral and the birthplace of the French Renaissance.  \n\n### 🏞️ For Nature & Scenery:\n- **Provence (e.g., Avignon, Gordes, Roussillon)** – Rolling hills, lavender fields, and sun-drenched villages. Perfect for a relaxing, scenic getaway.  \n- **The French Alps (e.g., Chambéry, Val d’Isère, or Grenoble)** – Ideal for hiking, skiing, or simply enjoying alpine lakes and mountain views.  \n- **Brittany** – Coastal cliffs, medieval towns, and stunning beaches. Try the famous Breton cuisine and visit Saint-Malo or Quimper.  \n\n### 🍷 For Wine & Food:\n- **Bordeaux** – A world-famous wine region with historic châteaux and beautiful vineyards.  \n- **Burgundy (e.g., Dijon, Beaune)** – Known for world-class Pinot Noir and rich, regional cuisine.  \n- **Languedoc** – A vast region with diverse wines and charming villages.  \n\n### 🏰 For Architecture & Charm:\n- **Amiens** – Home to the magnificent Amiens Cathedral, one of the finest Gothic structures in the world.  \n- **Châteaux in the Loire Valley** – A scenic route of medieval castles like Chambord, Château de Chenonceau, and Château de Villandry.  \n\n### 🌿 For a Slow, Rural Escape:\n- **Corsica** – A rugged, island region with wild landscapes, mountain villages, and a unique culture.  \n- **Alsace** – A blend of French and German influences, with colorful towns like Strasbourg and the Alsace wine region",
         "metadata": {
           "handler_used": "destination",
-          "routing_confidence": 0.9,
+          "routing_confidence": 0.95,
           "confidence": 0.9,
           "classification_tags": {
             "has_weather_mentioned": false,
@@ -318,276 +48,259 @@
             "is_comparison": false,
             "is_recommendation_request": true
           },
-          "success": true
-        }
-      },
-      {
-        "turn_id": "37e86791-f6ed-4d17-8b42-4e3851d7d747",
-        "timestamp": "2025-09-15 18:59:12.160835",
-        "user_input": "what to pack to preovence?",
-        "assistant_response": "Ah, Provence! One of the most beautiful regions in France, known for its picturesque landscapes, charming villages, and warm climate. As a travel packing expert, I'm happy to help you prepare for your trip to Provence. Here are some essential items to pack:\n\n1. Lightweight clothing: Provence is known for its warm and sunny weather, so pack lightweight, breathable clothing such as cotton dresses, blouses, and shorts.\n2. Comfortable shoes: You'll want to explore the charming villages and vineyards of Provence on foot, so pack comfortable walking shoes or sandals.\n3. Sun protection: Don't forget to pack sunscreen with a high SPF, a wide-brimmed hat, and sunglasses to protect yourself from the sun's strong rays.\n4. Insect repellent: Mosquitoes and other insects can be prevalent in Provence during the summer months, so pack some insect repellent to keep them at bay.\n5. Water bottle: Stay hydrated by bringing a refillable water bottle with you",
-        "metadata": {
-          "handler_used": "packing",
-          "routing_confidence": 0.8,
-          "confidence": 0.9,
-          "classification_tags": {
-            "has_weather_mentioned": true,
-            "location": "provence, france",
-            "is_question": true,
-            "is_comparison": false,
-            "is_recommendation_request": true
-          },
-          "success": true
-        }
-      },
-      {
-        "turn_id": "235a935c-2ce4-48fc-9571-0b9f26857f2b",
-        "timestamp": "2025-09-15 19:12:31.116200",
-        "user_input": "i want to do beach vaction in provance",
-        "assistant_response": "Ah, a beach vacation in Provence, France! That sounds like a dream come true. Provence is known for its stunning beaches, picturesque villages, and rich cultural heritage. Here are some recommendations, insights, and practical travel information to help you plan an unforgettable trip:\n\nDestination Recommendations:\n\n1. The French Riviera (Côte d'Azur): Known for its glamorous towns like Nice, Cannes, and Saint-Tropez, the French Riviera offers some of the most beautiful beaches in Europe. Enjoy the crystal-clear waters, soak up the sun, and explore the local markets and boutiques.\n2. The Calanques: These narrow inlets along the coast offer a more secluded beach experience. The Calanques National Park is home to some of the most beautiful beaches in France, with towering cliffs, hidden coves, and clear waters perfect for swimming and snorkeling.\n3. Hyères: Located on the island of Hyeres, this charming town offers a mix of sandy beaches and pebble shores. Enjoy water",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.9,
-          "confidence": 0.9,
-          "classification_tags": {
-            "has_weather_mentioned": false,
-            "location": "provence, france",
-            "is_question": true,
-            "is_comparison": false,
-            "is_recommendation_request": true
-          },
-          "success": true
-        }
-      },
-      {
-        "turn_id": "2a0acd44-48ee-4dd6-b30c-8395a76463af",
-        "timestamp": "2025-09-15 19:17:43.149592",
-        "user_input": "The French Riviera attractions",
-        "assistant_response": "Bonjour! As a travel attractions expert for the French Riviera, I'm happy to help you plan your trip. Here are some top recommendations for attractions, activities, sightseeing itineraries, and practical information to make your visit unforgettable:\n\nAttraction Recommendations:\n\n1. The French Riviera is home to some of the most beautiful beaches in Europe, such as the Palais des Païens in Antibes, the Plage du Château in Cannes, and the Plage de la Croisette in Cannes. Relax on the sandy shores, enjoy water sports, or simply soak up the sun.\n2. Visit the famous Fort Carré in Antibes, a 17th-century fort that offers stunning views of the coastline and the Mediterranean Sea. Learn about its rich history and explore the surrounding area.\n3. Explore the picturesque villages of Saint-Paul-de-Vence and Saint-Tropez, known for their narrow streets, charming boutiques, and gastronomic delights.\n4. Discover the Château de Saint-Jean-",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 0.9,
-          "confidence": 0.9,
-          "classification_tags": {
-            "has_weather_mentioned": false,
-            "location": "french riviera",
-            "is_question": true,
-            "is_comparison": false,
-            "is_recommendation_request": true
-          },
-          "success": true
+          "success": true,
+          "current_location": "france"
         }
       }
     ],
     "uk": [
       {
-        "turn_id": "67394413-8e6f-4e46-a57f-01635bab45e7",
-        "timestamp": "2025-09-18 12:14:00.067544",
-        "user_input": "i want to go to england",
-        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF' not found (status code: 404)",
+        "turn_id": "e0abe1f4-1c4d-47b3-b476-250aff63fa1f",
+        "timestamp": "2025-09-18 16:53:09.733669",
+        "user_input": "I want to travel to the uk, where should i go?",
+        "assistant_response": "I encountered an error while processing your query: 'ClassificationTags' object has no attribute 'get'",
         "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
+          "handler_used": "destination",
+          "routing_confidence": 0.9,
           "confidence": 0.0,
-          "classification_tags": {},
-          "success": false
+          "classification": {
+            "category": "destination",
+            "confidence": 0.9,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": true,
+              "location": "uk",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": false,
+          "current_location": "uk",
+          "used_weather_api": false,
+          "used_web_search": true
         }
       },
       {
-        "turn_id": "0ed0e1c1-9528-4e2f-aadc-32953da5a01a",
-        "timestamp": "2025-09-18 12:14:26.519153",
-        "user_input": "i want to go to england",
-        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'llama3.2' not found (status code: 404)",
+        "turn_id": "63ea7e37-2a4d-4a78-93db-ff626a335370",
+        "timestamp": "2025-09-18 17:13:17.672961",
+        "user_input": "I want to travel to the uk, where should i go?",
+        "assistant_response": "That's a great idea! The UK is full of diverse and stunning destinations—here are some top recommendations depending on what you're looking for:\n\n### 🏞️ Nature & Outdoor Adventures\n- **The Lake District** – Famous for its scenic lakes, mountains, and walking trails. Perfect for hiking, scenic views, and cozy countryside villages like Grasmere or Windermere.\n- **The Scottish Highlands** – Experience dramatic landscapes, lochs, and wildlife. Try a scenic drive to Loch Ness or hike in the Cairngorms.\n- **The Yorkshire Dales** – A beautiful mix of rolling hills, deep valleys, and charming villages. Great for walking and photography.\n\n### 🏰 History & Culture\n- **London** – The capital with iconic landmarks like Big Ben, the Tower of London, the British Museum, and the London Eye. Also great for museums, theatre, and food.\n- **Edinburgh** – Home to the famous Edinburgh Festival and the stunning Edinburgh Castle. A vibrant city with rich history and culture.\n- **Oxford & Cambridge** – Explore historic colleges, beautiful architecture, and the charm of university towns. Great for students or history lovers.\n\n### 🏙️ Cities & Urban Vibes\n- **Manchester** – A modern city with a lively music scene, great nightlife, and the iconic Manchester Cathedral and the Manchester Art Gallery.\n- **Birmingham** – A bustling city with a mix of history and modernity, great for shopping, food, and culture.\n\n### 🌿 Cozy & Quiet Getaway\n- **Cornwall** – A picturesque coastal region with beautiful beaches, cliffs, and charming villages like St Ives or Falmouth.\n- **The Isle of Wight** – A peaceful island with cliffs, beaches, and the historic medieval castle at Arundel.\n\n### 🏞️ Family-Friendly & Scenic\n- **Wales** – Known for its dramatic mountains, beaches, and the famous Snowdonia National Park. Great for families and nature lovers.\n- **The Cotswolds** – A picturesque region with charming villages, rolling hills, and historic manor houses. Perfect for a relaxing countryside stay.\n\n💡 **Pro Tip**: If you're new to the UK, start with **London** or **Edinburgh**—they’re well-connected, have great transport links, and offer a mix of culture, history, and modern life.\n\nWould you like recommendations based on your",
         "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.0,
-          "classification_tags": {},
-          "success": false
-        }
-      },
-      {
-        "turn_id": "568b11bf-af94-4f1f-a60e-86296309a27f",
-        "timestamp": "2025-09-18 12:15:21.683595",
-        "user_input": "i want to go to englend",
-        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'llama3.2' not found (status code: 404)",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.0,
-          "classification_tags": {},
-          "success": false
-        }
-      },
-      {
-        "turn_id": "6b0e926f-256c-4a1d-b042-00daaf43ed9f",
-        "timestamp": "2025-09-18 12:16:22.545083",
-        "user_input": "i want to go to englend",
-        "assistant_response": "I encountered an error while processing your query: Ollama error: model 'f.co/unsloth/Qwen3-8B-GGUF:Q4_K_M' not found (status code: 404)",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.0,
-          "classification_tags": {},
-          "success": false
-        }
-      },
-      {
-        "turn_id": "aa7c424f-2144-45ea-8b0d-bf26fcada462",
-        "timestamp": "2025-09-18 12:18:38.954131",
-        "user_input": "i want to go to englend",
-        "assistant_response": "<think>\nOkay, the user wrote \"i want to go to englend\" which is likely a typo for \"England.\" First, I need to acknowledge their intent and correct the spelling. Since I'm a travel assistant focused on destinations, attractions, and packing, I should guide them towards those areas. I should mention that I can help with recommendations, things to see, and packing tips. But I need to be polite and honest about not handling other types of questions. Let me make sure the response is friendly and offers assistance in the right areas. Also, check for any other possible typos or misunderstandings. Alright, the response should be clear and helpful.\n</think>\n\nIt seems you meant \"England\" – a fantastic destination! 🇬🇧 I’d be happy to help with:  \n- **Destination recommendations** (e.g., must-visit cities, regions, or hidden gems).  \n- **Attractions and activities** (e.g., historical sites, nature spots, or cultural experiences).  \n- **Packing and preparation** (e.g., weather tips, essentials for your trip).  \n\nLet me know how I can assist! 😊",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
+          "handler_used": "destination",
+          "routing_confidence": 0.95,
           "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "956b010b-6583-49a8-bbad-83a0d024e4a5",
-        "timestamp": "2025-09-18 12:21:17.203351",
-        "user_input": "i want to go to england!]",
-        "assistant_response": "<think>\nOkay, the user wants to go to England. I need to respond as a travel assistant specialized in destinations, attractions, and packing. First, I should acknowledge their interest in England. Then, since they mentioned going there, I should offer help with recommendations, activities, or packing tips. But wait, the user hasn't specified which aspect they need help with. They just said \"I want to go to England!\" So I should ask them to clarify if they need destination recommendations, things to do, or packing advice. That way, I can direct them properly. Also, I should make sure to be polite and guide them to the right areas. Let me check if there's anything else. No, the user's question is about going to England, which is within my expertise. Wait, the initial instruction said if the user's question doesn't fit, respond politely and guide them. But in this case, the user is asking about a destination, which is within my scope. Wait, maybe the user is just starting and hasn't specified what they need. So I should ask them to specify if they need recommendations, attractions, or packing tips. That makes sense. So the response should be friendly, welcome them, and ask for more details on what they need help with. Alright, that's the plan.\n</think>\n\nWelcome to England! 🇬🇧 What a fantastic choice! To help you make the most of your trip, could you clarify what you need assistance with? For example:  \n- **Destination recommendations** (e.g., cities, regions, or specific areas to visit).  \n- **Attractions and activities** (e.g., must-see landmarks, cultural experiences, or local events).  \n- **Packing and preparation** (e.g., what to bring for the weather, travel tips, or itinerary planning).  \n\nLet me know, and I’ll tailor my advice to your needs! 🌟",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "335c6696-50ca-45fc-85bd-45ccf337f207",
-        "timestamp": "2025-09-18 12:25:59.153313",
-        "user_input": "i want to go to england! give me some reccomendations",
-        "assistant_response": "<think>\nOkay, the user wants to go to England and is asking for recommendations. Let me check the guidelines. The user's question fits within the expertise areas of destination recommendations. I should provide some top destinations in England. But I need to make sure I don't go into attractions or packing details unless they ask. Let me list the main cities and regions. London is a must, then maybe Edinburgh, York, Bath, and the Lake District. Also mention the countryside and coastal areas. Keep it friendly and invite them to ask more if they need details on attractions or packing. Make sure to stay polite and within the scope.\n</think>\n\nThat sounds amazing! England is a fantastic destination with so much to explore. Here are some top recommendations to get you started:\n\n### **Must-Visit Destinations**  \n1. **London** – Explore iconic landmarks like the Tower of London, Buckingham Palace, and the British Museum. Don’t miss a trip to the Thames River and the vibrant neighborhoods of Camden or Shoreditch.  \n2. **Edinburgh** – Known for its historic castle, Royal Mile, and the Edinburgh Festival Fringe (if you’re visiting in August).  \n3. **York** – A medieval gem with well-preserved architecture, the Yorkshire Wolds, and the famous York Minster.  \n4. **Bath** – Famous for its Roman Baths and Georgian architecture, with stunning views of the surrounding countryside.  \n5. **Lake District** – A UNESCO World Heritage Site perfect for hiking, boating, and scenic drives.  \n\n### **Other Highlights**  \n- **Coastal Gems**: Explore the dramatic cliffs of the Jurassic Coast (Dorset) or the charming seaside towns of Cornwall.  \n- **Countryside**: Take a scenic train ride through the Cotswolds or the Yorkshire Dales.  \n\nWould you like tips on **attractions and activities** to experience in these areas, or help with **packing and preparation** for your trip? I’d be happy to assist! 😊",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "2d6fcaf6-cd46-4aa5-affa-79887887e41b",
-        "timestamp": "2025-09-18 12:52:34.654996",
-        "user_input": "i want to go to england",
-        "assistant_response": "<think>\nOkay, the user said they want to go to England. Let me think about how to respond. Since I'm a travel assistant specialized in destinations, attractions, and packing, I need to make sure I cover those areas. But the user's message is pretty broad. They just mentioned wanting to go to England, so they might need more specific information.\n\nFirst, I should acknowledge their interest in England. Then, I should ask for more details to provide a helpful response. Maybe they need recommendations on places to visit, things to do, or what to pack. But I should also mention my limitations if they ask something outside my expertise. Wait, the user hasn't asked a specific question yet. They just stated their intention to go to England. So I need to prompt them to specify what they need help with. \n\nI should guide them towards the three areas I specialize in: destinations, attractions, and packing. Maybe list those options for them. That way, they can choose which part they need assistance with. Also, I need to be polite and helpful, making sure they know I can't handle everything but can help with those specific areas. Let me structure the response to invite them to ask about those three topics. Let me check if I'm missing anything. No, that should cover it. Alright, time to draft the response.\n</think>\n\nThat’s fantastic! England is a wonderful destination with so much to explore. To help you plan your trip, could you clarify what you’d like assistance with? For example:  \n- **Destination recommendations** (e.g., cities, regions, or specific areas to visit).  \n- **Attractions and activities** (e.g., historical sites, nature spots, or local experiences).  \n- **Packing and preparation** (e.g., weather, must-have items, or travel tips).  \n\nLet me know, and I’ll tailor my advice to your needs! 🇬🇧✨",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "bfcf2529-9f75-413b-bef6-3d915b596fcb",
-        "timestamp": "2025-09-18 14:50:22.315315",
-        "user_input": "i want help with planning trip to london  london",
-        "assistant_response": "Absolutely! I'd be happy to help you plan your trip to London. Let me know which of the following you'd like assistance with:\n\n- 🏙️ **Destination recommendations**: Top neighborhoods, hidden gems, or areas to explore (like Camden, Hyde Park, or the Thames)\n- 🎯 **Attractions and activities**: Must-see museums, parks, events, or unique experiences (like visiting the British Museum or trying a pub quiz)\n- 🎒 **Packing tips**: What to pack for different seasons, weather, or types of trips (e.g., for a rainy spring visit or a family-friendly summer trip)\n\nJust let me know your interests or travel style, and I’ll tailor the suggestions to your needs! 😊",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "69f54326-ccc4-40fb-b167-5c51994c5193",
-        "timestamp": "2025-09-18 14:51:27.484786",
-        "user_input": "Destination recommendations for londoen",
-        "assistant_response": "It looks like you might have meant \"London\" instead of \"londoen.\" I'd be happy to help with destination recommendations for London or other cities!\n\nIf you're looking for:\n- Top destination recommendations (like must-visit spots in London or other cities),  \n- Attractions and activities (such as museums, parks, or outdoor adventures),  \n- Packing tips and preparation (like what to bring for a trip to London or any destination),\n\nJust let me know — I'm here to assist with all those topics!\n\nFor example, I can suggest places like the Tower of London, Hyde Park, or the British Museum, or help you pack efficiently for a trip to London. Let me know your interests and travel style, and I’ll tailor the suggestions! 😊",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "aee30ed9-3372-45ae-904f-f7f6dd2ab251",
-        "timestamp": "2025-09-18 14:52:54.890740",
-        "user_input": "Destination recommendations for london",
-        "assistant_response": "Absolutely! London is a fantastic destination with something for everyone — from historic landmarks to modern culture and vibrant food scenes. Here are a few top destination recommendations in London:\n\n**Must-Visit Attractions:**\n- **The London Eye** – A iconic view of the city from the Thames.\n- **Big Ben and the Houses of Parliament** – A timeless symbol of British heritage.\n- **Buckingham Palace** – See the Changing of the Guard and explore the royal estate.\n- **Tate Modern** – A world-class art museum with modern and contemporary exhibitions.\n- **Westminster Abbey** – Home to royal coronations and historic events.\n- **Hyde Park & Regent’s Park** – Beautiful green spaces perfect for walks or picnics.\n- **Shakespeare’s Globe** – Experience the magic of classic plays in a historic setting.\n\n**Local Experiences:**\n- Explore the **London Boroughs** like Camden, Camden Market, or Shoreditch for street food and culture.\n- Take a guided tour of **historic neighborhoods** like Covent Garden or Soho.\n- Visit **Southbank** for museums, live music, and river views.\n\nWould you like me to help with:\n- Specific attractions or activities based on your interests (e.g., family-friendly, romantic, foodie)?\n- Packing tips for a trip to London (e.g., what to pack, weather considerations)?\n- Travel dates or budget-friendly options?\n\nLet me know — I'm happy to help with any of those! 🌆🇬🇧",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
-        }
-      },
-      {
-        "turn_id": "6fd0641b-f24a-424b-a32d-6ec9ea554dfe",
-        "timestamp": "2025-09-18 15:06:59.538497",
-        "user_input": "i want to know what to pack to london in the summer",
-        "assistant_response": "I encountered an error while processing your query: generate_ollama() got an unexpected keyword argument 'ollama_flash_attention'",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.0,
-          "classification_tags": {},
-          "success": false
-        }
-      },
-      {
-        "turn_id": "ba616a69-311d-4ef1-96cc-9698ff67fdef",
-        "timestamp": "2025-09-18 15:08:54.685664",
-        "user_input": "Destination recommendations for london",
-        "assistant_response": "Absolutely! London is a fantastic destination with something for everyone—whether you're interested in history, culture, food, or nightlife. Here are a few destination recommendations within London to help you plan your visit:\n\n**Must-Visit Attractions:**\n- **The British Museum** – Explore world-renowned artifacts from ancient civilizations.\n- **Tower of London** – Wander through history, including the infamous Tower Bridge and the Crown Jewels.\n- **London Eye** – Enjoy panoramic views of the city from this iconic observation deck.\n- **Borough Market** – A vibrant food market with local delicacies and street food.\n- **Westminster Abbey & Big Ben** – Visit the historic site of royal coronations and timepieces.\n\n**Hidden Gems & Local Experiences:**\n- **Shakespeare’s Globe Theatre** – A must for literature and theater lovers.\n- **Kensington Gardens & Hyde Park** – Great for a peaceful walk or picnic.\n- **Camden Market** – A lively spot for street food, vintage shopping, and local art.\n\nWould you like help with specific activities based on your interests (e.g., family-friendly, romantic, adventure), or tips on what to pack for a trip to London? I’d be happy to assist with that too!",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
+          "classification": {
+            "category": "destination",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": true,
+              "location": "uk",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": "uk",
+          "used_weather_api": false,
+          "used_web_search": true
         }
       }
     ],
-    "fr": [
+    "default": [
       {
-        "turn_id": "c3cb47a4-7d0e-4714-b627-d7d5ad6e4e6d",
-        "timestamp": "2025-09-18 15:11:06.580706",
-        "user_input": "I want to travel to france, where should i go?",
-        "assistant_response": "That's a great question! France is full of wonderful destinations, so here are a few top recommendations depending on your interests:\n\n- **Paris** – The capital, known for the Eiffel Tower, Louvre Museum, and charming streets like the Champs-Élysées. Perfect for history, culture, and romance.  \n- **Provence** – A scenic region with lavender fields, charming villages, and the famous city of Nice. Great for nature and relaxation.  \n- **Bordeaux or Lyon** – Ideal for food lovers, with vibrant markets and local cuisine.  \n- **The French Alps** – Great for hiking, skiing, and stunning mountain views.  \n- **Normandy** – Visit WWII sites or enjoy coastal villages and seafood.  \n\nIf you'd like, I can help you explore specific attractions, activities, or even what to pack for your trip! Just let me know which part of France or type of experience interests you most. 😊",
+        "turn_id": "5922ba82-b91c-427c-a6b9-167ecaf5b66a",
+        "timestamp": "2025-09-18 17:00:54.600398",
+        "user_input": "Hello, I want to travel to Japan",
+        "assistant_response": "Hello! It's wonderful that you're planning a trip to Japan — a country known for its rich culture, stunning landscapes, and vibrant cities like Tokyo! 😊\n\nSince you're currently in Tokyo, Japan, I assume you're either already here or planning a visit. Let me help you with some useful travel tips and information:\n\n### 🌤️ Current Weather in Tokyo (as of today)\nTokyo currently has mild to warm temperatures, typically ranging from **18–25°C (64–77°F)** in spring and early summer. If you're traveling in spring (March–May) or autumn (September–November), expect pleasant weather with clear skies and occasional rain. Summer (July–August) can be hot and humid, while winter (December–February) brings cooler temperatures and occasional snow in the mountains.\n\n👉 *Tip:* Pack layers, especially if you're visiting outside the peak seasons. A light jacket or umbrella is always handy!\n\n### 🏙️ Top Things to Do in Tokyo\n- **Visit Shibuya Crossing** – one of the world’s busiest intersections.\n- **Explore Asakusa and Senso-ji Temple** – a historic neighborhood with traditional Japanese culture.\n- **Stroll through Ueno Park** – great for nature and local culture.\n- **Check out Akihabara** – the hub for electronics, anime, and gaming.\n- **Take a day trip to Hakone or Mount Fuji** (a scenic day trip from Tokyo).\n- **Try authentic Japanese food** – sushi, ramen, tempura, and matcha desserts!\n\n### 📅 Best Time to Visit\n- **Spring (March–May)**: Cherry blossoms in full bloom — especially beautiful in Ueno and Meiji Shrine.\n- **Autumn (September–November)**: Golden foliage and pleasant temperatures.\n- **Avoid summer (July–August)** if you're sensitive to heat and humidity.\n\n### 🎟️ Tips for Travelers\n- **Language**: While English is spoken in tourist areas, learning a few basic Japanese phrases (like \"arigato\" for thank you) goes a long way.\n- **Transportation**: Tokyo has one of the best public transit systems in the world. Use a **Suica or Pasmo card** for easy payments on trains and buses.\n- **Cultural Etiquette**: Bow slightly when greeting, avoid loud talking in temples or quiet areas, and be respectful",
         "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
+          "handler_used": "packing",
+          "routing_confidence": 0.9,
           "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
+          "classification": {
+            "category": "packing",
+            "confidence": 0.9,
+            "tags": {
+              "needs_weather_api": true,
+              "needs_web_search": false,
+              "location": "tokyo, japan",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": "tokyo, japan",
+          "used_weather_api": true,
+          "used_web_search": false
         }
       },
       {
-        "turn_id": "0f327c1c-dad2-431e-9301-8a036a07ebc8",
-        "timestamp": "2025-09-18 15:13:06.767002",
-        "user_input": "# Initialize a chat with system + user context",
-        "assistant_response": "I'd be happy to help you with travel planning! While I can't provide specific destination recommendations, attractions, or packing tips at this time, I'd be glad to assist with any of those topics.  \n\nFor example:\n- If you're looking for unique destinations based on your interests (like hiking, beaches, or cultural experiences), I can suggest some great options.\n- If you want to know about must-see attractions or local activities in a place, I can guide you through what's available.\n- If you're preparing for a trip, I can help you figure out what to pack based on the destination, season, and type of travel.\n\nFeel free to let me know what kind of travel experience you're looking for, and I’ll be happy to help! 😊",
+        "turn_id": "6dda20db-f7da-4950-ae3f-79dd4157ca81",
+        "timestamp": "2025-09-18 17:41:23.800642",
+        "user_input": "Hello",
+        "assistant_response": "Hello! How can I assist you with your travel plans today? 😊",
         "metadata": {
           "handler_used": "other",
-          "routing_confidence": 0.5,
+          "routing_confidence": 0.95,
           "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
+          "classification": {
+            "category": "other",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": false,
+              "location": null,
+              "is_question": false,
+              "is_comparison": false,
+              "is_recommendation_request": false
+            }
+          },
+          "success": true,
+          "current_location": null,
+          "used_weather_api": false,
+          "used_web_search": false
+        }
+      }
+    ],
+    "uk2": [
+      {
+        "turn_id": "6f1f6617-9189-4170-93af-9e998b767f0b",
+        "timestamp": "2025-09-18 17:31:17.955818",
+        "user_input": "Destination recommendations for london",
+        "assistant_response": "Absolutely! London is a vibrant city with something for every traveler — from historic landmarks to modern attractions and hidden gems. Here are some top destination recommendations based on different interests:\n\n### 🏰 Must-Visit Historical & Cultural Sites\n1. **The Tower of London**  \n   Explore the medieval fortress, royal palace, and infamous prison. Don’t miss the Crown Jewels display.\n\n2. **Buckingham Palace**  \n   See the Changing of the Guard (check the schedule) and get a glimpse of the royal family.\n\n3. **The British Museum**  \n   Home to the Rosetta Stone, the Elgin Marbles, and the Hope Diamond. A must for history and art lovers.\n\n4. **Tate Modern (on the Thames)**  \n   A stunning modern art museum housed in a former power station. Great for contemporary art and installations.\n\n5. **Westminster Abbey**  \n   Visit the site of coronations, royal weddings, and state funerals. Beautiful architecture and historical significance.\n\n---\n\n### 🌆 Iconic Landmarks & City Views\n6. **Big Ben & the Houses of Parliament**  \n   Iconic clock tower and parliamentary buildings. Great photo spot — especially at sunrise or sunset.\n\n7. **The London Eye**  \n   Take a scenic ride over the Thames for panoramic views of the city. Perfect for a sunset visit.\n\n8. **St. Paul’s Cathedral**  \n   A masterpiece of architecture by Sir Christopher Wren. Visit the dome and the crypt.\n\n9. **Hyde Park & Regent’s Park**  \n   Take a walk, enjoy a picnic, or visit the Royal Parks — great for nature lovers and families.\n\n---\n\n### 🍽️ Food & Drink Experiences\n10. **Shoreditch & Camden**  \n   Trendy neighborhoods with world-class street food, pubs, and craft breweries.\n\n11. **Soho**  \n   Famous for its restaurants, bars, and nightlife. Try a classic British pub or a Michelin-starred dish.\n\n12. **Southwark & Borough Market**  \n   A food lover’s paradise — fresh produce, international cuisine, and street food.\n\n13. **Try a traditional pub lunch**  \n   Sample a classic British meal like fish and chips or a full English breakfast.\n\n---\n\n### 🎭 Entertainment & Museums\n14. **West End Theatres**  \n   Catch a performance at Shakespeare’s Globe or a modern musical like *The Lion King* or *Moulin Rouge*.\n\n15. **Natural History Museum**  \n   Interactive exhibits with the famous blue whale skeleton and the Dinosaur Hall.\n\n16. **Science Museum & IMAX**  \n   Great for families and curious minds — includes hands-on exhibits and a planetarium.\n\n---\n\n### 🚶‍♂️ Hidden Gems & Off-the-Beaten-Path Spots\n17. **Kensington Gardens & The Serpentine**  \n   Perfect for a peaceful stroll or a quiet picnic.\n\n18. **The National Gallery**  \n   Home to works by Van Gogh, Monet, and Rembrandt — ideal for art enthusiasts.\n\n19. **Cavendish Square & Bloomsbury**  \n   A charming area with historic buildings, bookshops, and cozy cafés.\n\n20. **London’s Underground (Tube) Tour**  \n   Take a guided tour of the world’s oldest and most extensive subway system.\n\n---\n\n### Tips for Planning Your Visit:\n- **Best Time to Visit**: Spring (April–June) or Autumn (September–November) for mild weather and fewer crowds.\n- **Transport**: Use the Oyster Card or contactless payment for easy and affordable travel across the city.\n- **Weather**: Be prepared for rain — bring a light jacket or umbrella.\n- **Cultural Etiquette**: Always respect local customs — dress modestly in religious sites, and avoid loud behavior in quiet areas.\n\nWhether you're into history, food, art, or just want to soak in the city’s energy, London offers endless possibilities. Let me know your interests (e.g., family-friendly, romantic, budget travel), and I can tailor the recommendations even more! 😊",
+        "metadata": {
+          "handler_used": "destination",
+          "routing_confidence": 0.95,
+          "confidence": 0.9,
+          "classification": {
+            "category": "destination",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": false,
+              "location": "london",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": "london",
+          "used_weather_api": false,
+          "used_web_search": false
         }
       },
       {
-        "turn_id": "e9d4bf7c-0959-4a3a-a09a-16844363d499",
-        "timestamp": "2025-09-18 15:14:05.337825",
-        "user_input": "I want to travel to france, where should i go?",
-        "assistant_response": "That's a great question! France is full of wonderful destinations, and the best place to go really depends on what kind of experience you're looking for. Here are a few popular and diverse options to consider:\n\n- **Paris** – The iconic capital with charming streets, world-class museums, and delicious food. Perfect for culture, history, and romance.  \n- **Provence** – A sun-drenched region known for lavender fields, vineyards, and charming villages like Nice and Gordes. Ideal for nature and scenic beauty.  \n- **The French Alps** – Great for outdoor adventures like skiing in winter or hiking in summer. Places like Chamonix or Val d'Isère offer stunning mountain views.  \n- **Bordeaux or Lyon** – Great for food lovers and those who want a more authentic, local experience.  \n- **Normandy** – Perfect for history buffs, especially those interested in WWII sites or coastal charm.  \n\nIf you'd like, I can help you explore specific attractions, activities, or even what to pack for your trip to any of these places! Just let me know which destination or type of experience interests you most. 😊",
+        "turn_id": "2742edc0-768b-48b8-93c3-8f808f3ce7bc",
+        "timestamp": "2025-09-18 17:35:50.448701",
+        "user_input": "what attractions should i do if i like museums?",
+        "assistant_response": "That's great! If you love museums, you're in for a fantastic cultural adventure. Here are some top attractions and museum experiences you should consider, depending on your interests:\n\n### 1. **The Louvre (Paris, France)**\n- *Why visit?* Home to the iconic *Mona Lisa* and one of the world’s most famous art collections.\n- *Bonus:* Explore other masterpieces like the Venus de Milo and the Winged Victory.\n\n### 2. **The British Museum (London, UK)**\n- *Why visit?* Houses over 8 million items, including the Rosetta Stone, the Elgin Marbles, and the Rosetta Stone.\n- *Highlight:* The Ancient Egypt and Near East sections are especially captivating.\n\n### 3. **The Metropolitan Museum of Art (New York City, USA)**\n- *Why visit?* One of the largest and most comprehensive art museums in the world, with collections spanning 5,000 years of art.\n- *Must-see:* The Egyptian, Greek, and American art sections.\n\n### 4. **The Vatican Museums (Vatican City, Italy)**\n- *Why visit?* Home to the Sistine Chapel and an incredible collection of Renaissance art and religious artifacts.\n- *Bonus:* The Raphael Rooms and the Vatican's art treasures are a must for art lovers.\n\n### 5. **The Museum of Modern Art (MoMA) – New York City**\n- *Why visit?* A cornerstone for modern and contemporary art, featuring works by Picasso, Van Gogh, and Warhol.\n- *Perfect for:* Anyone who loves modern art and innovation.\n\n### 6. **The Natural History Museum (London, UK)**\n- *Why visit?* A marvel of science and natural history with the famous blue whale skeleton and the Dinosaur Hall.\n- *Great for:* Science enthusiasts and those who enjoy immersive, educational exhibits.\n\n### 7. **The Uffizi Gallery (Florence, Italy)**\n- *Why visit?* A treasure trove of Renaissance art, including works by Botticelli, Michelangelo, and Leonardo da Vinci.\n- *Perfect for:* Art history buffs and lovers of classical European painting.\n\n### 8. **The Tate Modern (London, UK)**\n- *Why visit?* A stunning former power station turned into a modern art museum.\n- *Highlights:* Works by Picasso, Warhol, and contemporary global artists.\n\n### 9. **The National Museum of Natural History (Washington, D.C., USA)**\n- *Why visit?* Features the famous American Museum of Natural History, including the Rose Center and the Hall of Ocean Life.\n- *Bonus:* The dinosaur skeletons and the \"Hall of Human Origins\" are unforgettable.\n\n### 10. **The Museum of the Future (Dubai, UAE)**\n- *Why visit?* A futuristic museum with interactive exhibits and a bold architectural design.\n- *Perfect for:* Those who enjoy blending technology and culture.\n\n---\n\n### Tips for Museum Goers:\n- **Plan ahead:** Check opening hours and admission fees (many offer free entry on certain days).\n- **Use museum apps:** Many museums offer guided tours, audio descriptions, and digital content.\n- **Visit during off-peak hours:** To avoid crowds and enjoy a more relaxed experience.\n- **Look for themed days:** Some museums host special exhibitions or events (like \"Science Days\" or \"Art in the Open\").\n\nWhether you're drawn to ancient civilizations, modern art, or natural wonders, there’s a museum out there for every interest. Enjoy your cultural journey! 🏛️✨",
         "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
+          "handler_used": "attractions",
+          "routing_confidence": 0.95,
           "confidence": 0.9,
-          "classification_tags": {},
-          "success": true
+          "classification": {
+            "category": "attractions",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": true,
+              "location": null,
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": null,
+          "used_weather_api": false,
+          "used_web_search": true
+        }
+      },
+      {
+        "turn_id": "1c535088-fc1d-4eb3-be23-e79c6c721ab5",
+        "timestamp": "2025-09-18 17:48:52.179978",
+        "user_input": "I want to travel to the uk, give me nature attractions, where should i go?",
+        "assistant_response": "That sounds like a wonderful adventure! The UK is incredibly rich in natural beauty, offering everything from rolling hills and ancient forests to dramatic coastlines and serene lakes. Here are some of the top nature attractions you should consider visiting when traveling to the UK:\n\n---\n\n### 🌲 1. **The Lake District (Cumbria)**\n- **Why visit?** A UNESCO World Heritage Site, this region is famous for its stunning lakes, rugged mountains, and scenic walking trails.\n- **Top highlights:**\n  - Windermere (the largest natural lake in England)\n  - Lake District National Park – perfect for hiking, cycling, and scenic views\n  - The famous \"fells\" like Scafell Pike (the highest peak in England)\n- **Best for:** Hiking, photography, peaceful countryside walks\n\n---\n\n### 🏞️ 2. **The Scottish Highlands (Scotland)**\n- **Why visit?** A vast and wild landscape with dramatic mountains, glens, and lochs.\n- **Top highlights:**\n  - Loch Ness – famous for its mysterious waters\n  - Ben Nevis (UK’s highest mountain)\n  - Glencoe – a dramatic valley with ancient history and stunning views\n- **Best for:** Adventure hiking, mountain biking, and experiencing remote, untouched beauty\n\n---\n\n### 🌿 3. **The Yorkshire Dales (Yorkshire)**\n- **Why visit?** A picturesque area with deep valleys, limestone cliffs, and serene rivers.\n- **Top highlights:**\n  - The River Ure and the Wharfedale Valley\n  - The Yorkshire Dales National Park – ideal for walking and enjoying alpine scenery\n- **Best for:** Hiking, scenic drives, and quiet countryside charm\n\n---\n\n### 🏖️ 4. **The Isle of Wight**\n- **Why visit?** A green, island gem with rolling hills, coastal cliffs, and beautiful countryside.\n- **Top highlights:**\n  - The South Coast cliffs and the White Cliffs of Dover (nearby)\n  - Nature reserves like the Isle of Wight’s South Coast\n  - The famous Blue Lagoon and the scenic South Foreland\n- **Best for:** Coastal walks, family-friendly nature spots, and a relaxing island escape\n\n---\n\n### 🌲 5. **New Forest (Hampshire)**\n- **Why visit?** A unique blend of ancient woodlands, heathlands, and wild horses.\n- **Top highlights:**\n  - The New Forest National Park – home to the rare \"New Forest ponies\"\n  - Ancient woodlands and wildlife spotting\n  - Opportunities for horse riding and cycling\n- **Best for:** Horseback riding, wildlife watching, and exploring open spaces\n\n---\n\n### 🌄 6. **The Peak District (England)**\n- **Why visit?** One of the UK’s most popular national parks with varied terrain.\n- **Top highlights:**\n  - The Peak District National Park – home to the famous \"Peak\" hills\n  - Great for walking, mountain biking, and enjoying views of the surrounding countryside\n- **Best for:** Family-friendly hiking, scenic drives, and peaceful walks\n\n---\n\n### 🌊 7. **The Northumberland Coast & Hadrian’s Wall**\n- **Why visit?** Combine ancient history with natural beauty.\n- **Top highlights:**\n  - The Northumberland coast with its cliffs and sea views\n  - Hadrian’s Wall – a historic path through wild, moorland landscapes\n- **Best for:** History lovers who also want scenic natural views\n\n---\n\n### 🐾 Bonus: Wildlife & Unique Experiences\n- **RSPB Minsmere (Suffolk)** – one of the UK’s best birdwatching spots\n- **The Scottish Highlands** – home to red deer, otters, and rare birds\n- **The Welsh Mountains** – offer dramatic peaks and alpine lakes\n\n---\n\n### Tips for Nature Travel in the UK:\n- **Best time to visit:** Late spring to early autumn (April–October) for mild weather and fewer crowds.\n- **Pack well:** Layers, waterproof gear, sturdy hiking boots, and a hat.\n- **Respect nature:** Follow Leave No Trace principles and stay on marked trails.\n\n---\n\nWhether you're into hiking, wildlife, or just quiet countryside relaxation, the UK offers something magical for every nature lover. Let me know your preferred type of experience (e.g., hiking, wildlife, family-friendly), and I can give you more tailored suggestions! 🌿🇬🇧",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 0.95,
+          "confidence": 0.9,
+          "classification": {
+            "category": "attractions",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": true,
+              "location": "uk",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": "uk",
+          "used_weather_api": false,
+          "used_web_search": true
+        }
+      }
+    ],
+    "it": [
+      {
+        "turn_id": "e41c9aa2-8ac6-4574-8f3b-13cbc9a62eb3",
+        "timestamp": "2025-09-19 12:41:42.577305",
+        "user_input": "i want to go to rome, whats the best things there",
+        "assistant_response": "That’s wonderful! Rome is one of the most beautiful and historically rich cities in the world — a perfect blend of ancient history, vibrant culture, delicious food, and stunning architecture. Whether you're a history buff, a food lover, or just someone who loves to wander, Rome has something for everyone.\n\nHere are the **best things to experience in Rome**:\n\n---\n\n### 🏛️ Top Historical & Cultural Sites\n1. **The Colosseum (Colosseo)**  \n   Walk through the ancient amphitheater where gladiator battles once took place. It's a must-see and one of the most iconic landmarks in the world.\n\n2. **Roman Forum & Palatine Hill**  \n   Explore the heart of ancient Rome — where emperors once ruled, senators debated, and crowds gathered. The Forum is a maze of ruins that gives a real sense of Roman life.\n\n3. **Pantheon**  \n   This stunning ancient temple with a massive dome is both majestic and awe-inspiring. The interior is lit by a skylight that brings in natural light — a true architectural marvel.\n\n4. **Villa Borghese & Gardens**  \n   A peaceful retreat with art galleries, a beautiful garden, and the famous **Borghese Museum** (home to masterpieces like Bernini’s *Apollo and Daphne*).\n\n5. **Trastevere**  \n   Wander through this charming, bohemian neighborhood — full of narrow streets, local cafes, and authentic Roman life. It’s a great place to soak in the local vibe.\n\n---\n\n### 🍝 Must-Try Food & Dining\n1. **Pasta & Risotto**  \n   Try *spaghetti alla carbonara*, *rigatoni alla gricia*, or *pappardelle al cinghiale* — all classic Roman dishes.\n\n2. **Pizza al Taglio**  \n   Freshly cut slices of Roman-style pizza, often with simple ingredients like tomato, mozzarella, and basil.\n\n3. **Taverna del Caffè** or **Osteria del Teatro**  \n   For authentic, local dining with traditional Roman flavors.\n\n4. **Roman Market (Mercato di Teste)**  \n   Visit the weekend market for fresh produce, cheeses, and local specialties.\n\n---\n\n### 🏰 Iconic Landmarks & Hidden Gems\n6. **St. Peter’s Basilica & Vatican City**  \n   Marvel at Michelangelo’s dome and the grand architecture of St. Peter’s. Don’t miss the Sistine Chapel — a masterpiece of Renaissance art.\n\n7. **Castel Sant’Angelo**  \n   A medieval fortress that once served as a papal residence and later a tomb. Great views from the top.\n\n8. **Trevi Fountain**  \n   A must-visit for its elegant design and the tradition of tossing a coin to ensure a return to Rome.\n\n9. **Piazza Navona**  \n   A beautiful square with fountains and great street art. Perfect for a relaxed stroll or a coffee in a nearby café.\n\n---\n\n### 🌿 Outdoor & Nature Experiences\n10. **Aventine Hill & Gardens**  \n   A quieter, scenic spot with great views and a peaceful atmosphere.\n\n11. **Circo Massimo**  \n   The ancient Roman circus — now a modern park with great views and a hint of history.\n\n---\n\n### 📅 Tips for Your Visit\n- **Best time to visit**: Spring (April–June) or early autumn (September–October) for pleasant weather and fewer crowds.\n- **Get around**: Use public transport (metro, bus, or bike) — Rome is walkable, especially in the center.\n- **Wear comfortable shoes** — you’ll be walking a lot!\n- **Respect local customs** — Rome is a city of tradition and history; be mindful of quiet spaces.\n\n---\n\n✅ **Bonus Tip**: Plan a day trip to **Villa d’Este** or **Castello di Fiumicino** for a scenic escape from the city center.\n\n---\n\nWhether you're exploring ancient ruins, savoring a plate of fresh pasta, or just enjoying the charm of a Roman street, Rome offers an unforgettable experience.\n\nWould you like help with a detailed itinerary (like a 3-day plan), recommendations for restaurants, or tips on how to avoid crowds? 😊",
+        "metadata": {
+          "handler_used": "attractions",
+          "routing_confidence": 0.95,
+          "confidence": 0.9,
+          "classification": {
+            "category": "attractions",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": false,
+              "needs_web_search": false,
+              "location": "rome",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": "rome",
+          "used_weather_api": false,
+          "used_web_search": false
+        }
+      },
+      {
+        "turn_id": "da045c86-1ba3-4a99-a83e-1b10cb6721e1",
+        "timestamp": "2025-09-19 12:50:47.543462",
+        "user_input": "what to pack to rome in may?",
+        "assistant_response": "Great question! Since you're traveling to Rome in May, the weather is typically pleasant and ideal for sightseeing. Here’s a thoughtful packing list tailored to the season and Rome’s climate:\n\n### 🌤️ Weather in Rome in May:\n- **Temperature**: Daytime highs around 22–26°C (72–79°F), evenings cool down to 12–16°C (54–61°F)\n- **Rainfall**: Light showers possible, especially in the early part of the month; occasional rain, but generally dry and sunny days dominate\n- **Sunshine**: About 7–8 hours of sunshine per day – perfect for outdoor exploration\n\n---\n\n### ✅ What to Pack for Rome in May:\n\n**Clothing:**\n- **Light layers** (t-shirts, short-sleeve shirts, light sweaters or cardigans) – for daytime warmth and cooler evenings\n- **A light jacket or windbreaker** – essential for evenings or sudden rain\n- **Comfortable walking shoes** – Rome is full of cobblestone streets and stairs (e.g., the Colosseum, Vatican, Trevi Fountain)\n- **Swimsuit** – if you plan to visit the Tiber River, public pools, or take a day trip to the beaches of the Amalfi Coast (though not in Rome itself)\n- **Sun protection**: Sunglasses, sunscreen (UV index can be high), and a hat (especially for outdoor sites)\n\n**Accessories:**\n- **Light scarf or shawl** – great for both style and warmth during cooler evenings\n- **Small backpack or day bag** – for carrying essentials like water, phone, wallet, and snacks\n\n**Other Essentials:**\n- **Reusable water bottle** – Rome has many excellent water fountains, and staying hydrated is key\n- **Travel documents** (passport, ID, tickets)\n- **Cash and cards** – some small vendors and local markets still prefer cash\n- **Camera or phone** – for capturing iconic views (like the Colosseum, Pantheon, or Rome’s ancient ruins)\n\n---\n\n### 🚫 What to Avoid:\n- Heavy coats or winter clothing – it’s warm and sunny during the day\n- Thick, heavy clothing – not needed for most outdoor activities\n- Umbrellas – they’re not practical for daily use; a compact rain jacket is better\n\n---\n\n### Bonus Tips:\n- May is one of the best times to visit Rome — fewer crowds than summer, great weather, and lower prices than peak season.\n- Try visiting the Vatican Museums and Sistine Chapel early in the morning to avoid crowds.\n- Don’t miss a sunset walk along the Tiber River or a visit to the Spanish Steps.\n\nEnjoy your trip to Rome — it’s a magical city, and May makes it even more delightful! 🏛️🌞🇮🇹",
+        "metadata": {
+          "handler_used": "packing",
+          "routing_confidence": 0.95,
+          "confidence": 0.9,
+          "classification": {
+            "category": "packing",
+            "confidence": 0.95,
+            "tags": {
+              "needs_weather_api": true,
+              "needs_web_search": false,
+              "location": "rome, italy",
+              "is_question": true,
+              "is_comparison": false,
+              "is_recommendation_request": true
+            }
+          },
+          "success": true,
+          "current_location": "rome, italy",
+          "used_weather_api": true,
+          "used_web_search": false
         }
       }
     ]

@@ -111,19 +111,19 @@ def log_model_call(model_name: str, prompt_length: int, **params):
     return decorator
 
 
-def log_handler_operation(handler_type: str, operation: str):
+def log_handler_operation(handler_type: str):
     """Log handler operations with context."""
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
             start_time = time.time()
-            logger.info(f"Handler {operation}", handler_type=handler_type)
+            logger.info(f"Handler started", handler_type=handler_type)
             
             try:
                 result = func(*args, **kwargs)
                 duration = time.time() - start_time
                 logger.info(
-                    f"Handler {operation} completed",
+                    f"Handler completed",
                     handler_type=handler_type,
                     duration=f"{duration:.3f}s"
                 )
@@ -131,7 +131,7 @@ def log_handler_operation(handler_type: str, operation: str):
             except Exception as e:
                 duration = time.time() - start_time
                 logger.error(
-                    f"Handler {operation} failed",
+                    f"Handler failed",
                     handler_type=handler_type,
                     duration=f"{duration:.3f}s",
                     error=str(e)

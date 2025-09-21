@@ -1,49 +1,76 @@
 """Ollama-based text classification for task routing."""
 
-from typing import Dict, Any, Tuple
+from typing import Dict, Any, Tuple, List
+import json
+from pydantic import ValidationError
 
 from ..settings import settings
-from ..general_types import HandlerType
+from ..models.response_models import ClassificationResponse, HandlerTypeEnum, ChatContext, ClassificationTags
 
 
-def _build_classification_prompt(user_input: str, context: Dict[str, Any]) -> str:
-    context_info = ""
-    if context.get("conversation_context"):
-        context_info = f"\nConversation context: {context['conversation_context'][:200]}..."
+def _build_classification_prompt(user_input: str, context: ChatContext, options) -> str:
+    """Build structured prompt for classification."""
+    system_message = context.get_system_message() or "You are a travel assistant intent classifier."
 
-    prompt = f"""You are a travel assistant task classifier. Analyze the user's input and provide:
+    prompt = f"""
+    {system_message}
 
-1. Category classification (destination, attractions, packing, other) those are the categories you can handle
-2. Confidence score (0.0-1.0)
-3. Tags and extracted information
+    Your task is to analyze the user input and classify it for a travel assistant system.
 
-User input: "{user_input}"{context_info}
+    Rules:
+    1. Choose exactly one category from: {options}
+    2. Respond ONLY in valid JSON with this exact structure:
+    {{
+        "category": "<one of the categories>",
+        "confidence": <number between 0.0 and 1.0>,
+        "tags": {{
+            "needs_weather_api": <true/false>,
+            "needs_web_search": <true/false>,
+            "location": "<extracted location or null>",
+            "is_question": <true/false>,
+            "is_comparison": <true/false>,
+            "is_recommendation_request": <true/false>
+        }}
+    }}
 
-Respond in this exact format:
-category: [category_name]
-confidence: [score]
-has_weather_mentioned: [true/false]
-location: [extracted location or "none"]
-is_question: [true/false]
-is_comparison: [true/false]
-is_recommendation_request: [true/false]
+    User input: "{user_input}"
 
-Examples:
-category: attractions
-confidence: 0.9
-has_weather_mentioned: false
-location: paris, france
-is_question: true
-is_comparison: false
-is_recommendation_request: true
+    Examples:
 
-category: packing
-confidence: 0.8
-has_weather_mentioned: true
-location: london, britain
-is_question: true
-is_comparison: false
-is_recommendation_request: true"""
+    Example 1:
+    User input: "What should I pack for Tokyo in April?"
+    Response:
+    {{
+        "category": "packing",
+        "confidence": 0.95,
+        "tags": {{
+            "needs_weather_api": true,
+            "needs_web_search": false,
+            "location": "Tokyo, Japan",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+        }}
+    }}
+
+    Example 2:
+    User input: "Which temples should I visit in Kyoto?"
+    Response:
+    {{
+        "category": "attractions",
+        "confidence": 0.9,
+        "tags": {{
+            "needs_weather_api": false,
+            "needs_web_search": false,
+            "location": "Kyoto, Japan",
+            "is_question": true,
+            "is_comparison": false,
+            "is_recommendation_request": true
+        }}
+    }}
+
+    Now classify the user input above. Respond ONLY with valid JSON.
+    """
 
     return prompt
 
@@ -51,62 +78,42 @@ is_recommendation_request: true"""
 class TravelTaskClassifier:
     
     def __init__(self):
-        self.model = settings.ollama_model
-        self.handler_types = [handler_type.value for handler_type in HandlerType]
+        self.model = settings.classification_model
     
-    def classify(self, user_input: str, context: Dict[str, Any]) -> Tuple[HandlerType, float, Dict[str, Any]]:
+    def classify(self, user_input: str, context: ChatContext, options: List[str]) -> ClassificationResponse:
+        """Classify user input and return handler type, confidence, and tags."""
         try:
-            prompt = _build_classification_prompt(user_input, context)
+            prompt = _build_classification_prompt(user_input, context, options)
 
             from travel_buddy.models.llm_loader import generate
             response = generate(
-                model=self.model,
+                custom_model=self.model,
                 prompt=prompt,
-                temperature=0.1,
+                temperature=0,
+                top_p=1.0,
+                top_k=0
             )
             
-            handler_type, confidence, tags = self._parse_classification_response(response)
-            
-            return handler_type, confidence, tags
+            classification = self._parse_classification_response(response)
+            return classification
             
         except Exception as e:
-            return HandlerType.OTHER, 0.5, {}
+            from ..logger import logger
+            logger.error("Classification failed", error=str(e))
+            return ClassificationResponse(
+                category=HandlerTypeEnum.OTHER,
+                confidence=0.5,
+                tags=ClassificationTags()
+            )
 
-    def _parse_classification_response(self, response: str) -> Tuple[HandlerType, float, Dict[str, Any]]:
+    @staticmethod
+    def _parse_classification_response(response: str) -> ClassificationResponse:
         try:
-            lines = response.strip().split('\n')
-            category = "other"
-            confidence = 0.5
-            tags = {}
-            
-            for line in lines:
-                line = line.strip().lower()
-                if line.startswith('category:'):
-                    category = line.split(':', 1)[1].strip()
-                elif line.startswith('confidence:'):
-                    try:
-                        confidence = float(line.split(':', 1)[1].strip())
-                        confidence = max(0.0, min(1.0, confidence))
-                    except ValueError:
-                        confidence = 0.5
-                elif line.startswith('has_weather_mentioned:'):
-                    tags['has_weather_mentioned'] = line.split(':', 1)[1].strip() == 'true'
-                elif line.startswith('location:'):
-                    location = line.split(':', 1)[1].strip()
-                    tags['location'] = location if location != 'none' else None
-                elif line.startswith('is_question:'):
-                    tags['is_question'] = line.split(':', 1)[1].strip() == 'true'
-                elif line.startswith('is_comparison:'):
-                    tags['is_comparison'] = line.split(':', 1)[1].strip() == 'true'
-                elif line.startswith('is_recommendation_request:'):
-                    tags['is_recommendation_request'] = line.split(':', 1)[1].strip() == 'true'
-            
-            try:
-                handler_type = HandlerType(category)
-            except ValueError:
-                handler_type = HandlerType.OTHER
-            
-            return handler_type, confidence, tags
-            
-        except Exception:
-            return HandlerType.OTHER, 0.5, {}
+            data = json.loads(response)
+            return ClassificationResponse.model_validate(data)
+        except (json.JSONDecodeError, ValidationError):
+            return ClassificationResponse(
+                category=HandlerTypeEnum.OTHER,
+                confidence=0.5,
+                tags= ClassificationTags()
+            )

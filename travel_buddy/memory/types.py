@@ -37,5 +37,6 @@ class ConversationContext(BaseModel):
     relevant_memories: List[MemoryEntry] = Field(default_factory=list)
     current_topic: Optional[str] = Field(None, description="Current conversation topic")
     user_preferences: Dict[str, Any] = Field(default_factory=dict, description="User preferences learned during conversation")
+    summary: Optional[str] = Field(None, description="Conversation summary")
     created_at: datetime = Field(default_factory=datetime.now)
     last_updated: datetime = Field(default_factory=datetime.now)
