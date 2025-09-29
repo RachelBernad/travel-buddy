@@ -47,6 +47,8 @@ class Settings(BaseSettings):
     enable_weather_api: bool = Field(False, env="ENABLE_WEATHER_API")
     enable_web_search_api: bool = Field(False, env="ENABLE_WEB_SEARCH_API")
 
+    enable_validation: bool = Field(True, env="ENABLE_VALIDATION")
+
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

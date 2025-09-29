@@ -6,6 +6,7 @@ from travel_buddy.handlers.taskHandlers.other_handler import OtherHandler
 from travel_buddy.handlers.taskHandlers.summary_handler import SummaryHandler
 from travel_buddy.handlers.registry import registry
 from travel_buddy.models.response_models import HandlerTypeEnum, ChatContext
+from travel_buddy.settings import settings
 
 
 def create_task_router() -> TaskRouter:
@@ -62,7 +63,8 @@ def process_with_handler(state: Dict[str, Any]) -> Dict[str, Any]:
             "task_result": task_result,
             "handler_used": classification.category.value,
             "success": task_result.success,
-            "confidence": task_result.confidence
+            "confidence": task_result.confidence,
+            "validation_passed": False if settings.enable_validation else True
         })
         
     except Exception as e:
@@ -108,7 +110,6 @@ def generate_summary(state: Dict[str, Any]) -> Dict[str, Any]:
         if summary_result.success and conversation_context:
             conversation_context.summary = summary_result.response
             state["conversation_context"] = conversation_context
-        
         return state
         
     except Exception as e:
