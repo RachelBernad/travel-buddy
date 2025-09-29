@@ -21,14 +21,14 @@ A smart travel assistant with conversation memory and specialized task handlers 
 2. Start Ollama service and pull a model:
    ```bash
    ollama serve
-   ollama pull llama2
+   ollama pull hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M
    ```
 
 3. Configure settings (optional):
    ```bash
    # Create .env file with custom settings
-   OLLAMA_MODEL=llama2
-   MAX_NEW_TOKENS=256
+   OLLAMA_MODEL=hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M
+   MAX_NEW_TOKENS=1024
    TEMPERATURE=0.5
    ```
 
@@ -79,30 +79,55 @@ travel_buddy/
 ├── cli.py                    # Command-line interface
 ├── logger.py                # Logging system
 ├── settings.py              # Configuration
-├── types.py                 # Type definitions
+├── general_types.py         # Type definitions
 ├── graphs/
 │   ├── smart_graph.py       # Main processing graph
+│   ├── conditional_graph.py # Conditional routing with API capabilities
 │   └── task_router.py       # Task routing logic
 ├── handlers/
 │   ├── base_handler.py      # Base handler class
 │   ├── registry.py          # Handler registry
 │   ├── task_classifier.py   # Query classification
+│   ├── api_handlers.py      # Weather and web search APIs
 │   └── taskHandlers/        # Specialized handlers
+│       ├── destination_handler.py
+│       ├── attractions_handler.py
+│       ├── packing_handler.py
+│       ├── other_handler.py
+│       └── summary_handler.py
 ├── memory/
 │   ├── conversation_manager.py # Conversation state
 │   ├── memory_store.py      # Persistent storage
 │   └── types.py             # Memory data structures
 └── models/
     ├── llm_loader.py        # LLM interface
-    └── ollama_loader.py     # Ollama integration
+    ├── ollama_loader.py     # Ollama integration
+    └── response_models.py   # Pydantic models
 ```
 
 ## Configuration
 
 Key settings via environment variables:
 
-- `OLLAMA_MODEL`: Model name (default: "llama2")
-- `MAX_NEW_TOKENS`: Max tokens to generate (default: 256)
+- `OLLAMA_MODEL`: Model name (default: "hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M")
+- `MAX_NEW_TOKENS`: Max tokens to generate (default: 1024)
 - `TEMPERATURE`: Sampling temperature (default: 0.5)
 - `MEMORY_STORAGE_PATH`: Memory file path (default: "memory_store.json")
 - `MAX_CONTEXT_TURNS`: Max conversation turns in context (default: 10)
+- `ENABLE_WEATHER_API`: Enable weather API integration (default: false)
+- `ENABLE_WEB_SEARCH_API`: Enable web search API integration (default: false)
+
+## Examples
+
+See the `examples/` directory for:
+- `conversation_example.py`: Conversation memory demo
+- `logging_example.py`: Logging system demo
+- `custom_handler_example.py`: Custom handler creation
+
+## Testing
+
+Run the test scripts to verify functionality:
+```bash
+python test_routing.py
+python test_simple_routing.py
+```

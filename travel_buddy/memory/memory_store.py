@@ -213,7 +213,7 @@ class MemoryStore:
         if session_id not in self._conversations:
             return ""
         last_turn = self.get_conversation_history(session_id, 1)[0]
-        summary = last_turn.metasata.get("summary", "")
+        summary = last_turn.metadata.get("summary", "")
         return summary
 
     def update_conversation_summary(self, session_id: str, summary: str) -> None:
