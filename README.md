@@ -1,45 +1,108 @@
-# Travel Buddy - Local HF LLM + LangChain + LangGraph
+# Travel Buddy
 
-Minimal skeleton to run a local HuggingFace model with Pydantic config, LangChain chain, and LangGraph app.
+A smart travel assistant with conversation memory and specialized task handlers using Ollama LLMs.
+
+## Features
+
+- **Smart Task Routing**: Automatically routes queries to specialized handlers
+- **Specialized Handlers**: Destination, attractions, packing, and general queries
+- **Conversation Memory**: Remembers previous conversations and context
+- **Interactive Mode**: Real-time conversation with the assistant
+- **Memory Management**: Tools to view and manage conversation history
+- **Comprehensive Logging**: Timing and performance tracking
 
 ## Setup
-1. Create and activate a virtualenv (recommended).
-2. Install deps:
+
+1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Copy env:
+
+2. Start Ollama service and pull a model:
    ```bash
-   copy .env.example .env   # Windows PowerShell: cp .env.example .env
+   ollama serve
+   ollama pull llama2
    ```
-4. Edit `.env` for your model. For a small chat model:
-   - `HF_MODEL_ID=TinyLlama/TinyLlama-1.1B-Chat-v1.0`
-   - Set `HF_DEVICE=cuda` if you have a GPU.
 
-Note: Some models require `trust_remote_code=True` or specific tokenizers. If needed, adapt the loader.
+3. Configure settings (optional):
+   ```bash
+   # Create .env file with custom settings
+   OLLAMA_MODEL=llama2
+   MAX_NEW_TOKENS=256
+   TEMPERATURE=0.5
+   ```
 
-## Run
-- LangChain chain:
-  ```bash
-  python -m travel_buddy chain "Plan a 3-day trip to Rome on a budget"
-  ```
-- LangGraph app:
-  ```bash
-  python -m travel_buddy graph "Suggest family-friendly attractions in Kyoto"
-  ```
+## Usage
+
+### Single Query
+```bash
+python -m travel_buddy query "Plan a 3-day trip to Rome"
+```
+
+### Interactive Mode
+```bash
+python -m travel_buddy interactive --session-id my-trip
+```
+
+### Memory Management
+```bash
+# List sessions
+python -m travel_buddy memory sessions
+
+# Show memory stats
+python -m travel_buddy memory stats
+
+# Clear specific session
+python -m travel_buddy memory clear --session-id my-trip
+
+# Clear all memory
+python -m travel_buddy memory clear
+```
+
+### Logging Demo
+```bash
+python examples/logging_example.py
+```
+
+## Architecture
+
+- **Smart Graph**: Routes queries to specialized handlers using LangGraph
+- **Task Router**: Classifies queries and selects appropriate handlers
+- **Handlers**: Specialized processors for different travel topics
+- **Memory System**: Persistent conversation history and context
+- **Logger**: Comprehensive timing and performance tracking
 
 ## Project Structure
+
 ```
-src/
-  travel_buddy/
-    config/settings.py
-    models/hf_loader.py
-    chains/basic_chain.py
-    graphs/basic_graph.py
-    cli.py
+travel_buddy/
+├── cli.py                    # Command-line interface
+├── logger.py                # Logging system
+├── settings.py              # Configuration
+├── types.py                 # Type definitions
+├── graphs/
+│   ├── smart_graph.py       # Main processing graph
+│   └── task_router.py       # Task routing logic
+├── handlers/
+│   ├── base_handler.py      # Base handler class
+│   ├── registry.py          # Handler registry
+│   ├── task_classifier.py   # Query classification
+│   └── taskHandlers/        # Specialized handlers
+├── memory/
+│   ├── conversation_manager.py # Conversation state
+│   ├── memory_store.py      # Persistent storage
+│   └── types.py             # Memory data structures
+└── models/
+    ├── llm_loader.py        # LLM interface
+    └── ollama_loader.py     # Ollama integration
 ```
 
-## Notes
-- If `torch` install fails on Windows, install the correct wheel from PyTorch website, then `pip install -r requirements.txt` again.
-- The default `distilbert-base-uncased` is not a causal LM; change to a chat/causal model like `TinyLlama/TinyLlama-1.1B-Chat-v1.0`.
-- For large models, consider `bitsandbytes`, `auto-gptq`, or `transformers` `device_map="auto"`.
+## Configuration
+
+Key settings via environment variables:
+
+- `OLLAMA_MODEL`: Model name (default: "llama2")
+- `MAX_NEW_TOKENS`: Max tokens to generate (default: 256)
+- `TEMPERATURE`: Sampling temperature (default: 0.5)
+- `MEMORY_STORAGE_PATH`: Memory file path (default: "memory_store.json")
+- `MAX_CONTEXT_TURNS`: Max conversation turns in context (default: 10)
