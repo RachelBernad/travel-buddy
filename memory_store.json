@@ -1,286 +1,42 @@
 {
-  "memories": [
-    {
-      "entry_id": "50e86b24-9c9a-4693-b580-852ad3ae7fb3",
-      "content": "User preference: what attractions should i do if i like museums?",
-      "entry_type": "preference",
-      "importance": 0.7,
-      "created_at": "2025-09-18 17:35:50.448701",
-      "last_accessed": null,
-      "access_count": 0,
-      "tags": [
-        "user_preference"
-      ],
-      "metadata": {
-        "turn_id": "2742edc0-768b-48b8-93c3-8f808f3ce7bc"
-      }
-    }
-  ],
+  "memories": [],
   "conversations": {
-    "fr": [
+    "my-trip": [
       {
-        "turn_id": "c7b9e1a3-fe67-4470-81e0-3148994af04d",
-        "timestamp": "2025-09-18 15:29:30.920550",
-        "user_input": "Destination recommendations for paris",
-        "assistant_response": "Absolutely! Paris is a magical city with so much to offer—whether you're a first-time visitor or a seasoned traveler. Here are some top destination recommendations based on different interests:\n\n### 🏙️ Must-Visit Landmarks & Iconic Sites\n1. **Eiffel Tower**  \n   – Iconic view at sunset or during the evening light show.  \n   – Tip: Visit early in the morning to avoid crowds.\n\n2. **Louvre Museum**  \n   – Home to the *Mona Lisa* and thousands of masterpieces.  \n   – Tip: Book tickets online in advance and consider visiting on a weekday.\n\n3. **Notre-Dame Cathedral**  \n   – A stunning blend of Gothic architecture.  \n   – Note: The cathedral is currently under restoration, but the surrounding area and the new *Notre-Dame du Lac* offer great views.\n\n4. **Sainte-Chapelle**  \n   – A breathtaking example of Gothic stained glass art.\n\n5. **Montmartre & Sacré-Cœur Basilica**  \n   – Enjoy panoramic views of the city from the top of the hill.  \n   – Don’t miss the artists’ quarter and the charming streets.\n\n---\n\n### 🍽️ Culinary & Foodie Experiences\n6. **Le Marais**  \n   – A vibrant neighborhood with trendy cafes, markets, and local boutiques.\n\n7. **Place du Trocadéro & Champs-Élysées**  \n   – Great for shopping and dining with elegant ambiance.\n\n8. **Boulangeries & Bakeries**  \n   – Try *croissants* at a local bakery like *Pierre Hermé* or *L’Épicerie du Roi*.\n\n9. **Chez L’Écureuil or Le Comptoir du Relais**  \n   – For authentic French cuisine and regional specialties.\n\n10. **Les Halles & Marché Bastille**  \n   – Fresh produce, cheeses, and local delicacies—perfect for food lovers.\n\n---\n\n### 🌿 Relaxing & Scenic Spots\n11. **Jardin des Plantes**  \n   – Beautiful botanical gardens with a peaceful atmosphere.\n\n12. **Luxembourg Garden**  \n   – A lovely spot for a quiet walk or a coffee break.\n\n13. **Seine River Cruises**  \n   – Take a scenic boat ride to see landmarks like the Pont Neuf",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.5,
-          "confidence": 0.9,
-          "classification_tags": {},
-          "success": true,
-          "current_location": null
-        }
-      },
-      {
-        "turn_id": "45f50cf3-4849-4485-a6b4-b519cbb24841",
-        "timestamp": "2025-09-18 15:32:19.247673",
-        "user_input": "I want to travel to france, where should i go?",
-        "assistant_response": "That's a wonderful idea! France is a beautiful and diverse country with so much to offer—whether you're into history, art, cuisine, nature, or simply charming countryside villages. Here are some top destinations in France, depending on your travel style:\n\n### 🏛️ For History & Culture:\n- **Paris** – The capital is a must-visit! Explore the Eiffel Tower, Louvre Museum, Notre-Dame, and charming neighborhoods like Montmartre and Le Marais.  \n- **Lyon** – A culinary gem with rich history, stunning architecture, and one of the most vibrant food scenes in France.  \n- **Rouen** – Famous for its iconic Gothic cathedral and the birthplace of the French Renaissance.  \n\n### 🏞️ For Nature & Scenery:\n- **Provence (e.g., Avignon, Gordes, Roussillon)** – Rolling hills, lavender fields, and sun-drenched villages. Perfect for a relaxing, scenic getaway.  \n- **The French Alps (e.g., Chambéry, Val d’Isère, or Grenoble)** – Ideal for hiking, skiing, or simply enjoying alpine lakes and mountain views.  \n- **Brittany** – Coastal cliffs, medieval towns, and stunning beaches. Try the famous Breton cuisine and visit Saint-Malo or Quimper.  \n\n### 🍷 For Wine & Food:\n- **Bordeaux** – A world-famous wine region with historic châteaux and beautiful vineyards.  \n- **Burgundy (e.g., Dijon, Beaune)** – Known for world-class Pinot Noir and rich, regional cuisine.  \n- **Languedoc** – A vast region with diverse wines and charming villages.  \n\n### 🏰 For Architecture & Charm:\n- **Amiens** – Home to the magnificent Amiens Cathedral, one of the finest Gothic structures in the world.  \n- **Châteaux in the Loire Valley** – A scenic route of medieval castles like Chambord, Château de Chenonceau, and Château de Villandry.  \n\n### 🌿 For a Slow, Rural Escape:\n- **Corsica** – A rugged, island region with wild landscapes, mountain villages, and a unique culture.  \n- **Alsace** – A blend of French and German influences, with colorful towns like Strasbourg and the Alsace wine region",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification_tags": {
-            "has_weather_mentioned": false,
-            "location": "france",
-            "is_question": true,
-            "is_comparison": false,
-            "is_recommendation_request": true
-          },
-          "success": true,
-          "current_location": "france"
-        }
-      }
-    ],
-    "uk": [
-      {
-        "turn_id": "e0abe1f4-1c4d-47b3-b476-250aff63fa1f",
-        "timestamp": "2025-09-18 16:53:09.733669",
-        "user_input": "I want to travel to the uk, where should i go?",
-        "assistant_response": "I encountered an error while processing your query: 'ClassificationTags' object has no attribute 'get'",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.9,
-          "confidence": 0.0,
-          "classification": {
-            "category": "destination",
-            "confidence": 0.9,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": true,
-              "location": "uk",
-              "is_question": true,
-              "is_comparison": false,
-              "is_recommendation_request": true
-            }
-          },
-          "success": false,
-          "current_location": "uk",
-          "used_weather_api": false,
-          "used_web_search": true
-        }
-      },
-      {
-        "turn_id": "63ea7e37-2a4d-4a78-93db-ff626a335370",
-        "timestamp": "2025-09-18 17:13:17.672961",
-        "user_input": "I want to travel to the uk, where should i go?",
-        "assistant_response": "That's a great idea! The UK is full of diverse and stunning destinations—here are some top recommendations depending on what you're looking for:\n\n### 🏞️ Nature & Outdoor Adventures\n- **The Lake District** – Famous for its scenic lakes, mountains, and walking trails. Perfect for hiking, scenic views, and cozy countryside villages like Grasmere or Windermere.\n- **The Scottish Highlands** – Experience dramatic landscapes, lochs, and wildlife. Try a scenic drive to Loch Ness or hike in the Cairngorms.\n- **The Yorkshire Dales** – A beautiful mix of rolling hills, deep valleys, and charming villages. Great for walking and photography.\n\n### 🏰 History & Culture\n- **London** – The capital with iconic landmarks like Big Ben, the Tower of London, the British Museum, and the London Eye. Also great for museums, theatre, and food.\n- **Edinburgh** – Home to the famous Edinburgh Festival and the stunning Edinburgh Castle. A vibrant city with rich history and culture.\n- **Oxford & Cambridge** – Explore historic colleges, beautiful architecture, and the charm of university towns. Great for students or history lovers.\n\n### 🏙️ Cities & Urban Vibes\n- **Manchester** – A modern city with a lively music scene, great nightlife, and the iconic Manchester Cathedral and the Manchester Art Gallery.\n- **Birmingham** – A bustling city with a mix of history and modernity, great for shopping, food, and culture.\n\n### 🌿 Cozy & Quiet Getaway\n- **Cornwall** – A picturesque coastal region with beautiful beaches, cliffs, and charming villages like St Ives or Falmouth.\n- **The Isle of Wight** – A peaceful island with cliffs, beaches, and the historic medieval castle at Arundel.\n\n### 🏞️ Family-Friendly & Scenic\n- **Wales** – Known for its dramatic mountains, beaches, and the famous Snowdonia National Park. Great for families and nature lovers.\n- **The Cotswolds** – A picturesque region with charming villages, rolling hills, and historic manor houses. Perfect for a relaxing countryside stay.\n\n💡 **Pro Tip**: If you're new to the UK, start with **London** or **Edinburgh**—they’re well-connected, have great transport links, and offer a mix of culture, history, and modern life.\n\nWould you like recommendations based on your",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification": {
-            "category": "destination",
-            "confidence": 0.95,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": true,
-              "location": "uk",
-              "is_question": true,
-              "is_comparison": false,
-              "is_recommendation_request": true
-            }
-          },
-          "success": true,
-          "current_location": "uk",
-          "used_weather_api": false,
-          "used_web_search": true
-        }
-      }
-    ],
-    "default": [
-      {
-        "turn_id": "5922ba82-b91c-427c-a6b9-167ecaf5b66a",
-        "timestamp": "2025-09-18 17:00:54.600398",
-        "user_input": "Hello, I want to travel to Japan",
-        "assistant_response": "Hello! It's wonderful that you're planning a trip to Japan — a country known for its rich culture, stunning landscapes, and vibrant cities like Tokyo! 😊\n\nSince you're currently in Tokyo, Japan, I assume you're either already here or planning a visit. Let me help you with some useful travel tips and information:\n\n### 🌤️ Current Weather in Tokyo (as of today)\nTokyo currently has mild to warm temperatures, typically ranging from **18–25°C (64–77°F)** in spring and early summer. If you're traveling in spring (March–May) or autumn (September–November), expect pleasant weather with clear skies and occasional rain. Summer (July–August) can be hot and humid, while winter (December–February) brings cooler temperatures and occasional snow in the mountains.\n\n👉 *Tip:* Pack layers, especially if you're visiting outside the peak seasons. A light jacket or umbrella is always handy!\n\n### 🏙️ Top Things to Do in Tokyo\n- **Visit Shibuya Crossing** – one of the world’s busiest intersections.\n- **Explore Asakusa and Senso-ji Temple** – a historic neighborhood with traditional Japanese culture.\n- **Stroll through Ueno Park** – great for nature and local culture.\n- **Check out Akihabara** – the hub for electronics, anime, and gaming.\n- **Take a day trip to Hakone or Mount Fuji** (a scenic day trip from Tokyo).\n- **Try authentic Japanese food** – sushi, ramen, tempura, and matcha desserts!\n\n### 📅 Best Time to Visit\n- **Spring (March–May)**: Cherry blossoms in full bloom — especially beautiful in Ueno and Meiji Shrine.\n- **Autumn (September–November)**: Golden foliage and pleasant temperatures.\n- **Avoid summer (July–August)** if you're sensitive to heat and humidity.\n\n### 🎟️ Tips for Travelers\n- **Language**: While English is spoken in tourist areas, learning a few basic Japanese phrases (like \"arigato\" for thank you) goes a long way.\n- **Transportation**: Tokyo has one of the best public transit systems in the world. Use a **Suica or Pasmo card** for easy payments on trains and buses.\n- **Cultural Etiquette**: Bow slightly when greeting, avoid loud talking in temples or quiet areas, and be respectful",
+        "turn_id": "3a9967ee-e36d-421b-9a25-a02db416ebf0",
+        "timestamp": "2025-09-29 17:49:53.039475",
+        "user_input": "what to pack to tome in may",
+        "assistant_response": "It looks like there might be a small mix-up in your query — \"Tome\" is not a known destination or location. It's possible you meant *Tulum*, *Tunisia*, or another destination. If you're referring to a place like **Tulum, Mexico**, which is a popular travel destination, I’d be happy to help with packing tips for May!\n\nMay is a great time to visit Tulum — the weather is warm and sunny, with average temperatures ranging from 25°C to 30°C (77°F to 86°F). Here’s what to pack for Tulum in May:\n\n### Essentials to Pack:\n- **Lightweight clothing** (t-shirts, shorts, sundresses, swimsuits)\n- **Sun protection** (hat, sunglasses, sunscreen – UV index is high!)\n- **Swimsuit and flip-flops** (Tulum has beautiful beaches and pools)\n- **Light rain jacket or umbrella** (brief showers are possible, especially in the morning)\n- **Reusable water bottle** (stay hydrated in the heat)\n- **Sunglasses and sunscreen** (sun exposure is strong)\n- **Travel-sized toiletries** (especially for beach visits)\n- **Camera or phone** (great for capturing the vibrant scenery)\n\n### Optional but Helpful:\n- **Beach towel** (a quick dry off after swimming)\n- **Light jacket or sweater** (for cooler evenings or indoor visits)\n- **Snacks** (for long days exploring)\n\n💡 Tip: Tulum is known for its stunning beaches, ancient ruins, and vibrant culture — so pack something fun to enjoy the local vibe!\n\nIf you meant a different location (like \"Tome\" in a different country or region), could you please clarify? I’d be happy to tailor the packing advice to your actual destination. 😊🌞🌴",
         "metadata": {
           "handler_used": "packing",
-          "routing_confidence": 0.9,
+          "routing_confidence": 0.95,
           "confidence": 0.9,
           "classification": {
             "category": "packing",
-            "confidence": 0.9,
+            "confidence": 0.95,
             "tags": {
               "needs_weather_api": true,
               "needs_web_search": false,
-              "location": "tokyo, japan",
+              "location": "tome",
               "is_question": true,
               "is_comparison": false,
               "is_recommendation_request": true
             }
           },
           "success": true,
-          "current_location": "tokyo, japan",
+          "current_location": "tome",
           "used_weather_api": true,
-          "used_web_search": false
+          "used_web_search": false,
+          "summary": "**Summary: Travel Preferences & Context for Future Interactions**\n\n- **Destination Clarified**: The user initially referenced \"Tome,\" which is not a known travel location. The assistant correctly identified this as a possible misspelling and assumed intent to refer to **Tulum, Mexico** — a popular tropical destination.  \n- **Trip Timing**: The trip is planned for **May**, a warm and sunny month with average temperatures of 25–30°C (77–86°F).  \n- **Trip Type**: A relaxed, sun-and-beach-focused vacation with opportunities for cultural exploration (e.g., ancient ruins) and outdoor activities.  \n- **Key Travel Preferences**:  \n  - Warm-weather, beach-oriented destination  \n  - Comfortable, lightweight clothing and sun protection essential  \n  - Emphasis on practical packing for heat, sun, and occasional light rain  \n  - Interest in local culture and scenic beauty  \n- **User Needs Addressed**:  \n  - Provided a clear, actionable packing list tailored to Tulum in May  \n  - Included context about weather, daily routines, and local experiences  \n- **Actionable Next Steps for Future Interactions**:  \n  - If the user specifies a different destination (e.g., Tunisia, Tomales, etc.), adjust recommendations accordingly  \n  - Prompt user to confirm or clarify location if ambiguity remains  \n  - Offer destination-specific advice (e.g., packing, best times to visit, cultural tips) based on updated input  \n  - Maintain a friendly, helpful tone with emojis and practical tips to enhance engagement  \n\n✅ This summary ensures the assistant can quickly recognize intent, deliver relevant and personalized travel advice, and improve future responses through clear, user-centered context.",
+          "was_corrected": false,
+          "validation_passed": true
         }
       },
       {
-        "turn_id": "6dda20db-f7da-4950-ae3f-79dd4157ca81",
-        "timestamp": "2025-09-18 17:41:23.800642",
-        "user_input": "Hello",
-        "assistant_response": "Hello! How can I assist you with your travel plans today? 😊",
-        "metadata": {
-          "handler_used": "other",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification": {
-            "category": "other",
-            "confidence": 0.95,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": false,
-              "location": null,
-              "is_question": false,
-              "is_comparison": false,
-              "is_recommendation_request": false
-            }
-          },
-          "success": true,
-          "current_location": null,
-          "used_weather_api": false,
-          "used_web_search": false
-        }
-      }
-    ],
-    "uk2": [
-      {
-        "turn_id": "6f1f6617-9189-4170-93af-9e998b767f0b",
-        "timestamp": "2025-09-18 17:31:17.955818",
-        "user_input": "Destination recommendations for london",
-        "assistant_response": "Absolutely! London is a vibrant city with something for every traveler — from historic landmarks to modern attractions and hidden gems. Here are some top destination recommendations based on different interests:\n\n### 🏰 Must-Visit Historical & Cultural Sites\n1. **The Tower of London**  \n   Explore the medieval fortress, royal palace, and infamous prison. Don’t miss the Crown Jewels display.\n\n2. **Buckingham Palace**  \n   See the Changing of the Guard (check the schedule) and get a glimpse of the royal family.\n\n3. **The British Museum**  \n   Home to the Rosetta Stone, the Elgin Marbles, and the Hope Diamond. A must for history and art lovers.\n\n4. **Tate Modern (on the Thames)**  \n   A stunning modern art museum housed in a former power station. Great for contemporary art and installations.\n\n5. **Westminster Abbey**  \n   Visit the site of coronations, royal weddings, and state funerals. Beautiful architecture and historical significance.\n\n---\n\n### 🌆 Iconic Landmarks & City Views\n6. **Big Ben & the Houses of Parliament**  \n   Iconic clock tower and parliamentary buildings. Great photo spot — especially at sunrise or sunset.\n\n7. **The London Eye**  \n   Take a scenic ride over the Thames for panoramic views of the city. Perfect for a sunset visit.\n\n8. **St. Paul’s Cathedral**  \n   A masterpiece of architecture by Sir Christopher Wren. Visit the dome and the crypt.\n\n9. **Hyde Park & Regent’s Park**  \n   Take a walk, enjoy a picnic, or visit the Royal Parks — great for nature lovers and families.\n\n---\n\n### 🍽️ Food & Drink Experiences\n10. **Shoreditch & Camden**  \n   Trendy neighborhoods with world-class street food, pubs, and craft breweries.\n\n11. **Soho**  \n   Famous for its restaurants, bars, and nightlife. Try a classic British pub or a Michelin-starred dish.\n\n12. **Southwark & Borough Market**  \n   A food lover’s paradise — fresh produce, international cuisine, and street food.\n\n13. **Try a traditional pub lunch**  \n   Sample a classic British meal like fish and chips or a full English breakfast.\n\n---\n\n### 🎭 Entertainment & Museums\n14. **West End Theatres**  \n   Catch a performance at Shakespeare’s Globe or a modern musical like *The Lion King* or *Moulin Rouge*.\n\n15. **Natural History Museum**  \n   Interactive exhibits with the famous blue whale skeleton and the Dinosaur Hall.\n\n16. **Science Museum & IMAX**  \n   Great for families and curious minds — includes hands-on exhibits and a planetarium.\n\n---\n\n### 🚶‍♂️ Hidden Gems & Off-the-Beaten-Path Spots\n17. **Kensington Gardens & The Serpentine**  \n   Perfect for a peaceful stroll or a quiet picnic.\n\n18. **The National Gallery**  \n   Home to works by Van Gogh, Monet, and Rembrandt — ideal for art enthusiasts.\n\n19. **Cavendish Square & Bloomsbury**  \n   A charming area with historic buildings, bookshops, and cozy cafés.\n\n20. **London’s Underground (Tube) Tour**  \n   Take a guided tour of the world’s oldest and most extensive subway system.\n\n---\n\n### Tips for Planning Your Visit:\n- **Best Time to Visit**: Spring (April–June) or Autumn (September–November) for mild weather and fewer crowds.\n- **Transport**: Use the Oyster Card or contactless payment for easy and affordable travel across the city.\n- **Weather**: Be prepared for rain — bring a light jacket or umbrella.\n- **Cultural Etiquette**: Always respect local customs — dress modestly in religious sites, and avoid loud behavior in quiet areas.\n\nWhether you're into history, food, art, or just want to soak in the city’s energy, London offers endless possibilities. Let me know your interests (e.g., family-friendly, romantic, budget travel), and I can tailor the recommendations even more! 😊",
-        "metadata": {
-          "handler_used": "destination",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification": {
-            "category": "destination",
-            "confidence": 0.95,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": false,
-              "location": "london",
-              "is_question": true,
-              "is_comparison": false,
-              "is_recommendation_request": true
-            }
-          },
-          "success": true,
-          "current_location": "london",
-          "used_weather_api": false,
-          "used_web_search": false
-        }
-      },
-      {
-        "turn_id": "2742edc0-768b-48b8-93c3-8f808f3ce7bc",
-        "timestamp": "2025-09-18 17:35:50.448701",
-        "user_input": "what attractions should i do if i like museums?",
-        "assistant_response": "That's great! If you love museums, you're in for a fantastic cultural adventure. Here are some top attractions and museum experiences you should consider, depending on your interests:\n\n### 1. **The Louvre (Paris, France)**\n- *Why visit?* Home to the iconic *Mona Lisa* and one of the world’s most famous art collections.\n- *Bonus:* Explore other masterpieces like the Venus de Milo and the Winged Victory.\n\n### 2. **The British Museum (London, UK)**\n- *Why visit?* Houses over 8 million items, including the Rosetta Stone, the Elgin Marbles, and the Rosetta Stone.\n- *Highlight:* The Ancient Egypt and Near East sections are especially captivating.\n\n### 3. **The Metropolitan Museum of Art (New York City, USA)**\n- *Why visit?* One of the largest and most comprehensive art museums in the world, with collections spanning 5,000 years of art.\n- *Must-see:* The Egyptian, Greek, and American art sections.\n\n### 4. **The Vatican Museums (Vatican City, Italy)**\n- *Why visit?* Home to the Sistine Chapel and an incredible collection of Renaissance art and religious artifacts.\n- *Bonus:* The Raphael Rooms and the Vatican's art treasures are a must for art lovers.\n\n### 5. **The Museum of Modern Art (MoMA) – New York City**\n- *Why visit?* A cornerstone for modern and contemporary art, featuring works by Picasso, Van Gogh, and Warhol.\n- *Perfect for:* Anyone who loves modern art and innovation.\n\n### 6. **The Natural History Museum (London, UK)**\n- *Why visit?* A marvel of science and natural history with the famous blue whale skeleton and the Dinosaur Hall.\n- *Great for:* Science enthusiasts and those who enjoy immersive, educational exhibits.\n\n### 7. **The Uffizi Gallery (Florence, Italy)**\n- *Why visit?* A treasure trove of Renaissance art, including works by Botticelli, Michelangelo, and Leonardo da Vinci.\n- *Perfect for:* Art history buffs and lovers of classical European painting.\n\n### 8. **The Tate Modern (London, UK)**\n- *Why visit?* A stunning former power station turned into a modern art museum.\n- *Highlights:* Works by Picasso, Warhol, and contemporary global artists.\n\n### 9. **The National Museum of Natural History (Washington, D.C., USA)**\n- *Why visit?* Features the famous American Museum of Natural History, including the Rose Center and the Hall of Ocean Life.\n- *Bonus:* The dinosaur skeletons and the \"Hall of Human Origins\" are unforgettable.\n\n### 10. **The Museum of the Future (Dubai, UAE)**\n- *Why visit?* A futuristic museum with interactive exhibits and a bold architectural design.\n- *Perfect for:* Those who enjoy blending technology and culture.\n\n---\n\n### Tips for Museum Goers:\n- **Plan ahead:** Check opening hours and admission fees (many offer free entry on certain days).\n- **Use museum apps:** Many museums offer guided tours, audio descriptions, and digital content.\n- **Visit during off-peak hours:** To avoid crowds and enjoy a more relaxed experience.\n- **Look for themed days:** Some museums host special exhibitions or events (like \"Science Days\" or \"Art in the Open\").\n\nWhether you're drawn to ancient civilizations, modern art, or natural wonders, there’s a museum out there for every interest. Enjoy your cultural journey! 🏛️✨",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification": {
-            "category": "attractions",
-            "confidence": 0.95,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": true,
-              "location": null,
-              "is_question": true,
-              "is_comparison": false,
-              "is_recommendation_request": true
-            }
-          },
-          "success": true,
-          "current_location": null,
-          "used_weather_api": false,
-          "used_web_search": true
-        }
-      },
-      {
-        "turn_id": "1c535088-fc1d-4eb3-be23-e79c6c721ab5",
-        "timestamp": "2025-09-18 17:48:52.179978",
-        "user_input": "I want to travel to the uk, give me nature attractions, where should i go?",
-        "assistant_response": "That sounds like a wonderful adventure! The UK is incredibly rich in natural beauty, offering everything from rolling hills and ancient forests to dramatic coastlines and serene lakes. Here are some of the top nature attractions you should consider visiting when traveling to the UK:\n\n---\n\n### 🌲 1. **The Lake District (Cumbria)**\n- **Why visit?** A UNESCO World Heritage Site, this region is famous for its stunning lakes, rugged mountains, and scenic walking trails.\n- **Top highlights:**\n  - Windermere (the largest natural lake in England)\n  - Lake District National Park – perfect for hiking, cycling, and scenic views\n  - The famous \"fells\" like Scafell Pike (the highest peak in England)\n- **Best for:** Hiking, photography, peaceful countryside walks\n\n---\n\n### 🏞️ 2. **The Scottish Highlands (Scotland)**\n- **Why visit?** A vast and wild landscape with dramatic mountains, glens, and lochs.\n- **Top highlights:**\n  - Loch Ness – famous for its mysterious waters\n  - Ben Nevis (UK’s highest mountain)\n  - Glencoe – a dramatic valley with ancient history and stunning views\n- **Best for:** Adventure hiking, mountain biking, and experiencing remote, untouched beauty\n\n---\n\n### 🌿 3. **The Yorkshire Dales (Yorkshire)**\n- **Why visit?** A picturesque area with deep valleys, limestone cliffs, and serene rivers.\n- **Top highlights:**\n  - The River Ure and the Wharfedale Valley\n  - The Yorkshire Dales National Park – ideal for walking and enjoying alpine scenery\n- **Best for:** Hiking, scenic drives, and quiet countryside charm\n\n---\n\n### 🏖️ 4. **The Isle of Wight**\n- **Why visit?** A green, island gem with rolling hills, coastal cliffs, and beautiful countryside.\n- **Top highlights:**\n  - The South Coast cliffs and the White Cliffs of Dover (nearby)\n  - Nature reserves like the Isle of Wight’s South Coast\n  - The famous Blue Lagoon and the scenic South Foreland\n- **Best for:** Coastal walks, family-friendly nature spots, and a relaxing island escape\n\n---\n\n### 🌲 5. **New Forest (Hampshire)**\n- **Why visit?** A unique blend of ancient woodlands, heathlands, and wild horses.\n- **Top highlights:**\n  - The New Forest National Park – home to the rare \"New Forest ponies\"\n  - Ancient woodlands and wildlife spotting\n  - Opportunities for horse riding and cycling\n- **Best for:** Horseback riding, wildlife watching, and exploring open spaces\n\n---\n\n### 🌄 6. **The Peak District (England)**\n- **Why visit?** One of the UK’s most popular national parks with varied terrain.\n- **Top highlights:**\n  - The Peak District National Park – home to the famous \"Peak\" hills\n  - Great for walking, mountain biking, and enjoying views of the surrounding countryside\n- **Best for:** Family-friendly hiking, scenic drives, and peaceful walks\n\n---\n\n### 🌊 7. **The Northumberland Coast & Hadrian’s Wall**\n- **Why visit?** Combine ancient history with natural beauty.\n- **Top highlights:**\n  - The Northumberland coast with its cliffs and sea views\n  - Hadrian’s Wall – a historic path through wild, moorland landscapes\n- **Best for:** History lovers who also want scenic natural views\n\n---\n\n### 🐾 Bonus: Wildlife & Unique Experiences\n- **RSPB Minsmere (Suffolk)** – one of the UK’s best birdwatching spots\n- **The Scottish Highlands** – home to red deer, otters, and rare birds\n- **The Welsh Mountains** – offer dramatic peaks and alpine lakes\n\n---\n\n### Tips for Nature Travel in the UK:\n- **Best time to visit:** Late spring to early autumn (April–October) for mild weather and fewer crowds.\n- **Pack well:** Layers, waterproof gear, sturdy hiking boots, and a hat.\n- **Respect nature:** Follow Leave No Trace principles and stay on marked trails.\n\n---\n\nWhether you're into hiking, wildlife, or just quiet countryside relaxation, the UK offers something magical for every nature lover. Let me know your preferred type of experience (e.g., hiking, wildlife, family-friendly), and I can give you more tailored suggestions! 🌿🇬🇧",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification": {
-            "category": "attractions",
-            "confidence": 0.95,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": true,
-              "location": "uk",
-              "is_question": true,
-              "is_comparison": false,
-              "is_recommendation_request": true
-            }
-          },
-          "success": true,
-          "current_location": "uk",
-          "used_weather_api": false,
-          "used_web_search": true
-        }
-      }
-    ],
-    "it": [
-      {
-        "turn_id": "e41c9aa2-8ac6-4574-8f3b-13cbc9a62eb3",
-        "timestamp": "2025-09-19 12:41:42.577305",
-        "user_input": "i want to go to rome, whats the best things there",
-        "assistant_response": "That’s wonderful! Rome is one of the most beautiful and historically rich cities in the world — a perfect blend of ancient history, vibrant culture, delicious food, and stunning architecture. Whether you're a history buff, a food lover, or just someone who loves to wander, Rome has something for everyone.\n\nHere are the **best things to experience in Rome**:\n\n---\n\n### 🏛️ Top Historical & Cultural Sites\n1. **The Colosseum (Colosseo)**  \n   Walk through the ancient amphitheater where gladiator battles once took place. It's a must-see and one of the most iconic landmarks in the world.\n\n2. **Roman Forum & Palatine Hill**  \n   Explore the heart of ancient Rome — where emperors once ruled, senators debated, and crowds gathered. The Forum is a maze of ruins that gives a real sense of Roman life.\n\n3. **Pantheon**  \n   This stunning ancient temple with a massive dome is both majestic and awe-inspiring. The interior is lit by a skylight that brings in natural light — a true architectural marvel.\n\n4. **Villa Borghese & Gardens**  \n   A peaceful retreat with art galleries, a beautiful garden, and the famous **Borghese Museum** (home to masterpieces like Bernini’s *Apollo and Daphne*).\n\n5. **Trastevere**  \n   Wander through this charming, bohemian neighborhood — full of narrow streets, local cafes, and authentic Roman life. It’s a great place to soak in the local vibe.\n\n---\n\n### 🍝 Must-Try Food & Dining\n1. **Pasta & Risotto**  \n   Try *spaghetti alla carbonara*, *rigatoni alla gricia*, or *pappardelle al cinghiale* — all classic Roman dishes.\n\n2. **Pizza al Taglio**  \n   Freshly cut slices of Roman-style pizza, often with simple ingredients like tomato, mozzarella, and basil.\n\n3. **Taverna del Caffè** or **Osteria del Teatro**  \n   For authentic, local dining with traditional Roman flavors.\n\n4. **Roman Market (Mercato di Teste)**  \n   Visit the weekend market for fresh produce, cheeses, and local specialties.\n\n---\n\n### 🏰 Iconic Landmarks & Hidden Gems\n6. **St. Peter’s Basilica & Vatican City**  \n   Marvel at Michelangelo’s dome and the grand architecture of St. Peter’s. Don’t miss the Sistine Chapel — a masterpiece of Renaissance art.\n\n7. **Castel Sant’Angelo**  \n   A medieval fortress that once served as a papal residence and later a tomb. Great views from the top.\n\n8. **Trevi Fountain**  \n   A must-visit for its elegant design and the tradition of tossing a coin to ensure a return to Rome.\n\n9. **Piazza Navona**  \n   A beautiful square with fountains and great street art. Perfect for a relaxed stroll or a coffee in a nearby café.\n\n---\n\n### 🌿 Outdoor & Nature Experiences\n10. **Aventine Hill & Gardens**  \n   A quieter, scenic spot with great views and a peaceful atmosphere.\n\n11. **Circo Massimo**  \n   The ancient Roman circus — now a modern park with great views and a hint of history.\n\n---\n\n### 📅 Tips for Your Visit\n- **Best time to visit**: Spring (April–June) or early autumn (September–October) for pleasant weather and fewer crowds.\n- **Get around**: Use public transport (metro, bus, or bike) — Rome is walkable, especially in the center.\n- **Wear comfortable shoes** — you’ll be walking a lot!\n- **Respect local customs** — Rome is a city of tradition and history; be mindful of quiet spaces.\n\n---\n\n✅ **Bonus Tip**: Plan a day trip to **Villa d’Este** or **Castello di Fiumicino** for a scenic escape from the city center.\n\n---\n\nWhether you're exploring ancient ruins, savoring a plate of fresh pasta, or just enjoying the charm of a Roman street, Rome offers an unforgettable experience.\n\nWould you like help with a detailed itinerary (like a 3-day plan), recommendations for restaurants, or tips on how to avoid crowds? 😊",
-        "metadata": {
-          "handler_used": "attractions",
-          "routing_confidence": 0.95,
-          "confidence": 0.9,
-          "classification": {
-            "category": "attractions",
-            "confidence": 0.95,
-            "tags": {
-              "needs_weather_api": false,
-              "needs_web_search": false,
-              "location": "rome",
-              "is_question": true,
-              "is_comparison": false,
-              "is_recommendation_request": true
-            }
-          },
-          "success": true,
-          "current_location": "rome",
-          "used_weather_api": false,
-          "used_web_search": false
-        }
-      },
-      {
-        "turn_id": "da045c86-1ba3-4a99-a83e-1b10cb6721e1",
-        "timestamp": "2025-09-19 12:50:47.543462",
-        "user_input": "what to pack to rome in may?",
-        "assistant_response": "Great question! Since you're traveling to Rome in May, the weather is typically pleasant and ideal for sightseeing. Here’s a thoughtful packing list tailored to the season and Rome’s climate:\n\n### 🌤️ Weather in Rome in May:\n- **Temperature**: Daytime highs around 22–26°C (72–79°F), evenings cool down to 12–16°C (54–61°F)\n- **Rainfall**: Light showers possible, especially in the early part of the month; occasional rain, but generally dry and sunny days dominate\n- **Sunshine**: About 7–8 hours of sunshine per day – perfect for outdoor exploration\n\n---\n\n### ✅ What to Pack for Rome in May:\n\n**Clothing:**\n- **Light layers** (t-shirts, short-sleeve shirts, light sweaters or cardigans) – for daytime warmth and cooler evenings\n- **A light jacket or windbreaker** – essential for evenings or sudden rain\n- **Comfortable walking shoes** – Rome is full of cobblestone streets and stairs (e.g., the Colosseum, Vatican, Trevi Fountain)\n- **Swimsuit** – if you plan to visit the Tiber River, public pools, or take a day trip to the beaches of the Amalfi Coast (though not in Rome itself)\n- **Sun protection**: Sunglasses, sunscreen (UV index can be high), and a hat (especially for outdoor sites)\n\n**Accessories:**\n- **Light scarf or shawl** – great for both style and warmth during cooler evenings\n- **Small backpack or day bag** – for carrying essentials like water, phone, wallet, and snacks\n\n**Other Essentials:**\n- **Reusable water bottle** – Rome has many excellent water fountains, and staying hydrated is key\n- **Travel documents** (passport, ID, tickets)\n- **Cash and cards** – some small vendors and local markets still prefer cash\n- **Camera or phone** – for capturing iconic views (like the Colosseum, Pantheon, or Rome’s ancient ruins)\n\n---\n\n### 🚫 What to Avoid:\n- Heavy coats or winter clothing – it’s warm and sunny during the day\n- Thick, heavy clothing – not needed for most outdoor activities\n- Umbrellas – they’re not practical for daily use; a compact rain jacket is better\n\n---\n\n### Bonus Tips:\n- May is one of the best times to visit Rome — fewer crowds than summer, great weather, and lower prices than peak season.\n- Try visiting the Vatican Museums and Sistine Chapel early in the morning to avoid crowds.\n- Don’t miss a sunset walk along the Tiber River or a visit to the Spanish Steps.\n\nEnjoy your trip to Rome — it’s a magical city, and May makes it even more delightful! 🏛️🌞🇮🇹",
+        "turn_id": "53e605a7-df13-4cc2-8e22-d566fe039f09",
+        "timestamp": "2025-09-29 17:51:23.702783",
+        "user_input": "i want to pack to rome in may",
+        "assistant_response": "Great choice! May is a fantastic time to visit Rome — the weather is mild and pleasant, with warm days and cool evenings, making it ideal for exploring the city’s historic sites and outdoor attractions.\n\nHere’s a helpful packing list tailored to your trip to Rome in May, taking into account the weather and local conditions:\n\n---\n\n### 🌤️ Weather in Rome in May:\n- **Daytime temperatures:** 20–26°C (68–79°F)\n- **Nighttime temperatures:** 12–16°C (54–61°F)\n- **Rainfall:** Moderate, with occasional showers — bring a light rain jacket or umbrella\n- **Sunshine:** Plenty of sunshine, so sun protection is a must\n\n---\n\n### ✅ Packing List for Rome in May:\n\n#### 🌞 Clothing:\n- **Light layers:** T-shirts, lightweight long-sleeve shirts (for sun protection)\n- **Pants/jeans:** Comfortable, breathable pants or skirts\n- **Light jacket or sweater:** For cooler evenings and indoor visits\n- **Sun hat or cap:** To shield from the sun\n- **Sunglasses:** Essential for UV protection\n- **Light rain jacket or umbrella:** For sudden showers (especially in the early mornings or evenings)\n\n#### 🚶‍♂️ Footwear:\n- **Comfortable walking shoes:** Rome is full of cobblestone streets and historic sites (like the Colosseum, Vatican, and Roman Forum) — good walking shoes are a must!\n- **Sneakers or walking shoes** (avoid flip-flops for outdoor exploration)\n\n#### 🎒 Accessories:\n- **Travel-sized toiletries:** Especially if you're visiting the Vatican or other religious sites (some places have modest dress codes)\n- **Reusable water bottle:** Rome’s tap water is safe, but many people prefer bottled water\n- **Small backpack or day bag:** For carrying essentials during sightseeing\n- **Travel adapter:** Italy uses Type C, F, and Schuko plugs (check your country’s plug type)\n\n#### 📸 Extras:\n- **Camera or phone with good battery life:** Great for capturing the beautiful Roman landscapes\n- **Snacks or energy bars:** For quick energy during long walks\n\n---\n\n### 📝 Tips for Packing:\n- **Dress modestly** when visiting religious sites like St. Peter’s Basilica or the Vatican — avoid revealing clothing.\n- **Check the weather forecast** a day or two before your trip to plan outdoor activities.\n- **Consider a light scarf or shawl** — useful for both sun protection and warmth in the evenings.\n\n---\n\nWith pleasant temperatures and fewer crowds than in summer, May offers a perfect balance of comfort and charm for exploring Rome. Enjoy your trip — the city is full of history, beauty, and delicious food!\n\nLet me know if you’d like recommendations for must-visit sites or local food to try while in Rome! 🇮🇹✨",
         "metadata": {
           "handler_used": "packing",
           "routing_confidence": 0.95,
@@ -300,7 +56,10 @@
           "success": true,
           "current_location": "rome, italy",
           "used_weather_api": true,
-          "used_web_search": false
+          "used_web_search": false,
+          "summary": "**Summary: Travel Preferences & Context for Future Interactions**\n\n- **Destination:** The user has expressed interest in travel destinations such as **Tulum, Mexico** and **Rome, Italy**, indicating a preference for **cultural and scenic destinations** with pleasant weather and outdoor accessibility.  \n- **Trip Timing:** The user is planning a trip during **May**, a season known for **mild to warm weather**, **lower crowds**, and **favorable conditions** for sightseeing and beach relaxation.  \n- **Trip Type:** The user is interested in **exploratory, sightseeing-focused trips** with a blend of history, nature, and local culture — emphasizing **comfort, ease of movement, and sun protection**.  \n- **Key Travel Needs:**  \n  - **Weather-appropriate clothing** (light layers, sun protection, rain gear)  \n  - **Comfortable footwear** for walking in historic or urban areas  \n  - **Modest dress codes** for religious or cultural sites (e.g., Vatican, ancient ruins)  \n  - **Practical travel essentials** (water bottles, adapters, reusable toiletries)  \n- **User Preferences:**  \n  - Clear, actionable packing lists tailored to specific destinations and seasons  \n  - Emphasis on **sun safety**, **weather adaptability**, and **local cultural awareness**  \n  - Open-ended interest in **must-visit sites** and **local experiences** (e.g., food, traditions)  \n- **Next Steps for Assistant:**  \n  - Confirm destination if \"Tome\" or other locations are referenced — prioritize clarity to avoid misalignment  \n  - Offer **customized packing and travel tips** based on destination, season, and user’s activity level  \n  - Suggest **must-visit attractions**, **local cuisine**, and **practical travel advice** (e.g., transport, dress codes, weather forecasts)  \n  - Proactively ask for clarification if new destinations or preferences emerge  \n\n✅ This structured summary enables the assistant to deliver **personalized, accurate, and user-focused travel guidance** in future interactions.",
+          "was_corrected": false,
+          "validation_passed": true
         }
       }
     ]
